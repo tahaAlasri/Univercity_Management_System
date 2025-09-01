@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Univercity Management System.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\univercity management system\\Univercity Management System\\Univercity Management System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Univercity Management System.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\univercity management system\\Univercity Management System\\Univercity Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Univercity Management System.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\univercity management system\\Univercity Management System\\Univercity Management System.csproj",
         "projectName": "Univercity Management System",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Univercity Management System.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\univercity management system\\Univercity Management System\\Univercity Management System.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\obj\\",
         "projectStyle": "PackageReference",
