@@ -16,5 +16,22 @@ namespace Univercity_Management_System
         {
             InitializeComponent();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void butMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form1 dashboard = new Form1();
+            dashboard.Show();
+            this.Hide();
+        }
     }
 }

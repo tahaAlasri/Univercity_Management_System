@@ -8,8 +8,7 @@ namespace Univercity_Management_System
     public partial class Form1 : Form
     {
         private string myConn = Properties.Settings.Default.Univercity_CRUD;
-        public string username { get; set; }
-        public string password {  get; set; }
+
         public Form1()
         {
             InitializeComponent();
@@ -22,7 +21,7 @@ namespace Univercity_Management_System
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void butLogin_Click(object sender, EventArgs e)
