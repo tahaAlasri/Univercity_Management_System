@@ -96,6 +96,7 @@
             butUsers.TabIndex = 9;
             butUsers.Text = "Create Usres";
             butUsers.UseVisualStyleBackColor = false;
+            butUsers.Click += butUsers_Click;
             // 
             // button9
             // 
