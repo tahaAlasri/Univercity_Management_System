@@ -143,5 +143,11 @@ namespace Univercity_Management_System
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnLoginHistory_Click(object sender, EventArgs e)
+        {
+            LoginHistoryForm logForm = new LoginHistoryForm();
+            logForm.ShowDialog();
+        }
     }
 }

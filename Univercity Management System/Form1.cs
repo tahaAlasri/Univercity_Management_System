@@ -51,6 +51,7 @@ namespace Univercity_Management_System
                         if (result > 0)
                         {
                             MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            SaveLoginHistory(username);
                             DashboardForm dashboard = new DashboardForm();
                             dashboard.Show();
                             this.Hide();
@@ -66,6 +67,28 @@ namespace Univercity_Management_System
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
+
         }
+        private void SaveLoginHistory(string username)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(myConn))
+                {
+                    conn.Open();
+                    string query = "INSERT INTO LoginHistory (UserName, LoginTime, MachineName) VALUES (@UserName, @LoginTime, @MachineName)";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@UserName", username);
+                    cmd.Parameters.AddWithValue("@LoginTime", DateTime.Now);
+                    cmd.Parameters.AddWithValue("@MachineName", Environment.MachineName);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("خطأ أثناء حفظ السجل: " + ex.Message);
+            }
+        }
+
     }
 }
