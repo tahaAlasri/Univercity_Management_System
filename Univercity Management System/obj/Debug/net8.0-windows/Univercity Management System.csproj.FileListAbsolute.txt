@@ -75,3 +75,4 @@ C:\Users\Admin\source\repos\Univercity Management System\Univercity Management S
 C:\Users\Admin\source\repos\Univercity Management System\Univercity Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Admin\source\repos\Univercity Management System\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.DashboardForm.resources
 C:\Users\Admin\source\repos\univercity management system\Univercity Management System\obj\Debug\net8.0-windows\Univercity Management System.sourcelink.json
+C:\Users\Admin\source\repos\univercity management system\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.create_users.resources
