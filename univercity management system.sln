@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28729.10
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "univercity management system", "univercity management system\univercity management system.csproj", "{1E31DFA2-1EC4-43C9-83E7-FD4D42504D54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Univercity Management System", "Univercity Management System\Univercity Management System.csproj", "{0C5BC824-8D1A-4361-8096-984F29E0E0CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E31DFA2-1EC4-43C9-83E7-FD4D42504D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E31DFA2-1EC4-43C9-83E7-FD4D42504D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E31DFA2-1EC4-43C9-83E7-FD4D42504D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E31DFA2-1EC4-43C9-83E7-FD4D42504D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5BC824-8D1A-4361-8096-984F29E0E0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5BC824-8D1A-4361-8096-984F29E0E0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5BC824-8D1A-4361-8096-984F29E0E0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5BC824-8D1A-4361-8096-984F29E0E0CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F2622D55-02F6-4E26-A1B9-454B0368FF09}
+		SolutionGuid = {43053B84-504E-441A-8274-443B1823FEB6}
 	EndGlobalSection
 EndGlobal
