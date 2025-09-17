@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\",
+  "WorkspaceRootPath": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\nitro\\source\\repos\\ums\\univercity_management_system\\univercity management system\\sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity management system\\univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity management system\\univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity management system\\univercity management system\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\univercity management system\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\univercity management system\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\nitro\\source\\repos\\ums\\univercity_management_system\\univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\univercity management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\nitro\\source\\repos\\ums\\univercity_management_system\\univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\nitro\\source\\repos\\ums\\univercity_management_system\\univercity management system\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\nitro\\source\\repos\\ums\\univercity_management_system\\univercity management system\\sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,68 +46,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\SQLQuery1.sql",
-              "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "SQLQuery1.sql ",
+              "Title": "SQLQuery4.sql ",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\SQLQuery4.sql",
+              "RelativeDocumentMoniker": "Univercity Management System\\SQLQuery4.sql",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\SQLQuery4.sql",
+              "RelativeToolTip": "Univercity Management System\\SQLQuery4.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-08T16:57:19.666Z",
+              "WhenOpened": "2025-09-17T02:37:52.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "create_users.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\create_users.cs",
-              "RelativeDocumentMoniker": "Univercity Management System\\create_users.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\create_users.cs",
-              "RelativeToolTip": "Univercity Management System\\create_users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\Form1.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\Form1.cs",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\Form1.cs [Design]",
+              "RelativeToolTip": "Univercity Management System\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T15:52:51.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "users.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\users.cs",
-              "RelativeDocumentMoniker": "Univercity Management System\\users.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\users.cs",
-              "RelativeToolTip": "Univercity Management System\\users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T15:21:05.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T02:51:27.091Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "create_users.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\create_users.cs",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\create_users.cs",
               "RelativeDocumentMoniker": "Univercity Management System\\create_users.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\create_users.cs [Design]",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\create_users.cs [Design]",
               "RelativeToolTip": "Univercity Management System\\create_users.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T15:20:08.803Z",
@@ -112,10 +87,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-08T16:57:19.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\users.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\users.cs",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\users.cs",
+              "RelativeToolTip": "Univercity Management System\\users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:21:05.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Properties\\Settings.settings",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "Univercity Management System\\Properties\\Settings.settings",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\Properties\\Settings.settings",
               "RelativeToolTip": "Univercity Management System\\Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
               "WhenOpened": "2025-09-06T06:44:07.836Z",
@@ -123,14 +123,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "DashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\DashboardForm.cs",
               "RelativeDocumentMoniker": "Univercity Management System\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\DashboardForm.cs [Design]",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\DashboardForm.cs [Design]",
               "RelativeToolTip": "Univercity Management System\\DashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T22:14:55.186Z"
+              "WhenOpened": "2025-08-31T22:14:55.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "create_users.cs",
+              "DocumentMoniker": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\create_users.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\create_users.cs",
+              "ToolTip": "C:\\Users\\NITRO\\source\\repos\\ums\\Univercity_Management_System\\Univercity Management System\\create_users.cs",
+              "RelativeToolTip": "Univercity Management System\\create_users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:52:51.896Z"
             }
           ]
         }
