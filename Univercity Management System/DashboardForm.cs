@@ -36,9 +36,14 @@ namespace Univercity_Management_System
 
         private void butUsers_Click(object sender, EventArgs e)
         {
-            create_users frm = new create_users(); 
+            create_users frm = new create_users();
             frm.Show();
             this.Hide();
+        }
+
+        private void butStudent_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

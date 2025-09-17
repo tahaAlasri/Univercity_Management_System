@@ -199,6 +199,7 @@
             butStudent.TabIndex = 0;
             butStudent.Text = "Student  Manegment";
             butStudent.UseVisualStyleBackColor = false;
+            butStudent.Click += butStudent_Click;
             // 
             // butMin
             // 
