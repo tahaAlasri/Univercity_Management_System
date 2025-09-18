@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\univercity management system\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity management system\\univercity management system\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity management system\\univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,6 +59,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -96,8 +100,7 @@
               "RelativeToolTip": "Univercity Management System\\users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T15:21:05.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T15:21:05.409Z"
             },
             {
               "$type": "Document",
@@ -108,8 +111,7 @@
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\DashboardForm.cs [Design]",
               "RelativeToolTip": "Univercity Management System\\DashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T22:14:55.186Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-31T22:14:55.186Z"
             },
             {
               "$type": "Document",
@@ -120,8 +122,7 @@
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Form1.cs [Design]",
               "RelativeToolTip": "Univercity Management System\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T08:50:19.308Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-10T08:50:19.308Z"
             },
             {
               "$type": "Document",
@@ -145,8 +146,7 @@
               "RelativeToolTip": "Univercity Management System\\LoginHistoryForm.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAkwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T21:16:55.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T21:16:55.639Z"
             },
             {
               "$type": "Document",
@@ -169,8 +169,7 @@
               "RelativeToolTip": "Univercity Management System\\create_users.Designer.cs",
               "ViewState": "AgIAAN0BAAAAAAAAAAAIwO4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T21:08:12.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T21:08:12.502Z"
             }
           ]
         }

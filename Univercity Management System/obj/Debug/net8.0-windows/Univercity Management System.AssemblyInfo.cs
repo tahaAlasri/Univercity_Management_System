@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Univercity Management System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65bacdadedaa6b6e5715a1cb711817897a9e0ced")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e6620f0ee29e0e8668640456fe964faf581e62")]
 [assembly: System.Reflection.AssemblyProductAttribute("Univercity Management System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Univercity Management System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
