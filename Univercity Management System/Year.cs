@@ -16,7 +16,6 @@ namespace Univercity_Management_System
         private const string updateQuery = "UPDATE Year SET Year_label=@Year_label WHERE Year_id=@Year_id";
         private const string deleteQuery = "DELETE FROM Year WHERE Year_id=@Year_id";
 
-        // قراءة كل السنوات
         public static DataTable GetYears()
         {
             DataTable datatable = new DataTable();
@@ -32,7 +31,6 @@ namespace Univercity_Management_System
             return datatable;
         }
 
-        // إضافة سنة
         public bool InsertYear(Year year)
         {
             int rows;
@@ -48,7 +46,6 @@ namespace Univercity_Management_System
             return rows > 0;
         }
 
-        // تعديل سنة
         public bool UpdateYear(Year year)
         {
             int rows;
@@ -65,7 +62,6 @@ namespace Univercity_Management_System
             return rows > 0;
         }
 
-        // حذف سنة
         public bool DeleteYear(int yearId)
         {
             int rows;

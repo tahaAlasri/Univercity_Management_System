@@ -28,31 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            dgv_Year_info = new Guna.UI2.WinForms.Guna2DataGridView();
             Tex_Year_label = new Guna.UI2.WinForms.Guna2TextBox();
             But_clear = new Guna.UI2.WinForms.Guna2Button();
             Tex_Year_id = new Guna.UI2.WinForms.Guna2TextBox();
@@ -65,8 +63,10 @@
             guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            ((System.ComponentModel.ISupportInitialize)dgv_Year_info).BeginInit();
+            dgv_Year_info = new DataGridView();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             guna2GroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgv_Year_info).BeginInit();
             SuspendLayout();
             // 
             // guna2Button1
@@ -75,7 +75,7 @@
             guna2Button1.BackColor = Color.FromArgb(241, 237, 228);
             guna2Button1.BorderColor = Color.FromArgb(241, 237, 228);
             guna2Button1.BorderRadius = 5;
-            guna2Button1.CustomizableEdges = customizableEdges1;
+            guna2Button1.CustomizableEdges = customizableEdges21;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(241, 237, 228);
@@ -85,72 +85,17 @@
             guna2Button1.ForeColor = Color.FromArgb(0, 0, 64);
             guna2Button1.Location = new Point(1200, 18);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2Button1.Size = new Size(38, 42);
             guna2Button1.TabIndex = 13;
             guna2Button1.Text = "X";
             guna2Button1.UseWaitCursor = true;
             guna2Button1.Click += guna2Button1_Click;
             // 
-            // dgv_Year_info
-            // 
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dgv_Year_info.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dgv_Year_info.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            dgv_Year_info.BackgroundColor = Color.FromArgb(241, 237, 228);
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(232, 234, 237);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dgv_Year_info.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dgv_Year_info.ColumnHeadersHeight = 4;
-            dgv_Year_info.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.White;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(0, 0, 64);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(239, 241, 243);
-            dataGridViewCellStyle3.SelectionForeColor = Color.Black;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dgv_Year_info.DefaultCellStyle = dataGridViewCellStyle3;
-            dgv_Year_info.GridColor = Color.FromArgb(239, 241, 243);
-            dgv_Year_info.Location = new Point(2, 667);
-            dgv_Year_info.Name = "dgv_Year_info";
-            dgv_Year_info.RowHeadersVisible = false;
-            dgv_Year_info.RowHeadersWidth = 51;
-            dgv_Year_info.Size = new Size(1302, 156);
-            dgv_Year_info.TabIndex = 12;
-            dgv_Year_info.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightGrid;
-            dgv_Year_info.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dgv_Year_info.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dgv_Year_info.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dgv_Year_info.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dgv_Year_info.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dgv_Year_info.ThemeStyle.BackColor = Color.FromArgb(241, 237, 228);
-            dgv_Year_info.ThemeStyle.GridColor = Color.FromArgb(239, 241, 243);
-            dgv_Year_info.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(232, 234, 237);
-            dgv_Year_info.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dgv_Year_info.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            dgv_Year_info.ThemeStyle.HeaderStyle.ForeColor = Color.Black;
-            dgv_Year_info.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dgv_Year_info.ThemeStyle.HeaderStyle.Height = 4;
-            dgv_Year_info.ThemeStyle.ReadOnly = false;
-            dgv_Year_info.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dgv_Year_info.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dgv_Year_info.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dgv_Year_info.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(0, 0, 64);
-            dgv_Year_info.ThemeStyle.RowsStyle.Height = 29;
-            dgv_Year_info.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(239, 241, 243);
-            dgv_Year_info.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black;
-            dgv_Year_info.UseWaitCursor = true;
-            // 
             // Tex_Year_label
             // 
             Tex_Year_label.Anchor = AnchorStyles.Left;
-            Tex_Year_label.CustomizableEdges = customizableEdges3;
+            Tex_Year_label.CustomizableEdges = customizableEdges23;
             Tex_Year_label.DefaultText = "";
             Tex_Year_label.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             Tex_Year_label.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -165,7 +110,7 @@
             Tex_Year_label.Name = "Tex_Year_label";
             Tex_Year_label.PlaceholderText = "";
             Tex_Year_label.SelectedText = "";
-            Tex_Year_label.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            Tex_Year_label.ShadowDecoration.CustomizableEdges = customizableEdges24;
             Tex_Year_label.Size = new Size(356, 47);
             Tex_Year_label.TabIndex = 5;
             Tex_Year_label.TextAlign = HorizontalAlignment.Center;
@@ -175,7 +120,7 @@
             // 
             But_clear.Anchor = AnchorStyles.Right;
             But_clear.BackColor = Color.FromArgb(242, 238, 229);
-            But_clear.CustomizableEdges = customizableEdges5;
+            But_clear.CustomizableEdges = customizableEdges25;
             But_clear.DisabledState.BorderColor = Color.DarkGray;
             But_clear.DisabledState.CustomBorderColor = Color.DarkGray;
             But_clear.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -185,7 +130,7 @@
             But_clear.ForeColor = Color.FromArgb(0, 0, 64);
             But_clear.Location = new Point(1013, 252);
             But_clear.Name = "But_clear";
-            But_clear.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            But_clear.ShadowDecoration.CustomizableEdges = customizableEdges26;
             But_clear.Size = new Size(210, 56);
             But_clear.TabIndex = 5;
             But_clear.Text = "Clear";
@@ -195,7 +140,7 @@
             // Tex_Year_id
             // 
             Tex_Year_id.Anchor = AnchorStyles.Left;
-            Tex_Year_id.CustomizableEdges = customizableEdges7;
+            Tex_Year_id.CustomizableEdges = customizableEdges27;
             Tex_Year_id.DefaultText = "";
             Tex_Year_id.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             Tex_Year_id.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -210,7 +155,7 @@
             Tex_Year_id.Name = "Tex_Year_id";
             Tex_Year_id.PlaceholderText = "";
             Tex_Year_id.SelectedText = "";
-            Tex_Year_id.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            Tex_Year_id.ShadowDecoration.CustomizableEdges = customizableEdges28;
             Tex_Year_id.Size = new Size(356, 47);
             Tex_Year_id.TabIndex = 4;
             Tex_Year_id.TextAlign = HorizontalAlignment.Center;
@@ -220,7 +165,7 @@
             // 
             But_delete.Anchor = AnchorStyles.Right;
             But_delete.BackColor = Color.FromArgb(242, 238, 229);
-            But_delete.CustomizableEdges = customizableEdges9;
+            But_delete.CustomizableEdges = customizableEdges29;
             But_delete.DisabledState.BorderColor = Color.DarkGray;
             But_delete.DisabledState.CustomBorderColor = Color.DarkGray;
             But_delete.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -230,7 +175,7 @@
             But_delete.ForeColor = Color.FromArgb(0, 0, 64);
             But_delete.Location = new Point(750, 252);
             But_delete.Name = "But_delete";
-            But_delete.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            But_delete.ShadowDecoration.CustomizableEdges = customizableEdges30;
             But_delete.Size = new Size(210, 56);
             But_delete.TabIndex = 4;
             But_delete.Text = "Delete";
@@ -241,7 +186,7 @@
             // 
             But_update.Anchor = AnchorStyles.Right;
             But_update.BackColor = Color.Green;
-            But_update.CustomizableEdges = customizableEdges11;
+            But_update.CustomizableEdges = customizableEdges31;
             But_update.DisabledState.BorderColor = Color.DarkGray;
             But_update.DisabledState.CustomBorderColor = Color.DarkGray;
             But_update.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -251,7 +196,7 @@
             But_update.ForeColor = Color.FromArgb(0, 0, 64);
             But_update.Location = new Point(1013, 119);
             But_update.Name = "But_update";
-            But_update.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            But_update.ShadowDecoration.CustomizableEdges = customizableEdges32;
             But_update.Size = new Size(210, 56);
             But_update.TabIndex = 3;
             But_update.Text = "Update";
@@ -262,7 +207,7 @@
             // 
             But_add.Anchor = AnchorStyles.Right;
             But_add.BackColor = Color.Green;
-            But_add.CustomizableEdges = customizableEdges13;
+            But_add.CustomizableEdges = customizableEdges33;
             But_add.DisabledState.BorderColor = Color.DarkGray;
             But_add.DisabledState.CustomBorderColor = Color.DarkGray;
             But_add.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -272,7 +217,7 @@
             But_add.ForeColor = Color.FromArgb(0, 0, 64);
             But_add.Location = new Point(750, 119);
             But_add.Name = "But_add";
-            But_add.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            But_add.ShadowDecoration.CustomizableEdges = customizableEdges34;
             But_add.Size = new Size(210, 56);
             But_add.TabIndex = 2;
             But_add.Text = "Add";
@@ -311,7 +256,7 @@
             butMin.BackColor = Color.FromArgb(241, 237, 228);
             butMin.BorderColor = Color.FromArgb(241, 237, 228);
             butMin.BorderRadius = 5;
-            butMin.CustomizableEdges = customizableEdges15;
+            butMin.CustomizableEdges = customizableEdges35;
             butMin.DisabledState.BorderColor = Color.DarkGray;
             butMin.DisabledState.CustomBorderColor = Color.DarkGray;
             butMin.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -321,7 +266,7 @@
             butMin.ForeColor = Color.FromArgb(0, 0, 64);
             butMin.Location = new Point(1140, 18);
             butMin.Name = "butMin";
-            butMin.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            butMin.ShadowDecoration.CustomizableEdges = customizableEdges36;
             butMin.Size = new Size(42, 42);
             butMin.TabIndex = 14;
             butMin.Text = "-";
@@ -340,23 +285,23 @@
             guna2GroupBox1.Controls.Add(guna2HtmlLabel3);
             guna2GroupBox1.Controls.Add(guna2HtmlLabel2);
             guna2GroupBox1.CustomBorderColor = Color.FromArgb(0, 0, 64);
-            guna2GroupBox1.CustomizableEdges = customizableEdges17;
+            guna2GroupBox1.CustomizableEdges = customizableEdges37;
             guna2GroupBox1.FillColor = Color.FromArgb(241, 237, 228);
             guna2GroupBox1.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2GroupBox1.ForeColor = Color.White;
-            guna2GroupBox1.Location = new Point(2, 114);
+            guna2GroupBox1.Location = new Point(2, 128);
             guna2GroupBox1.Name = "guna2GroupBox1";
-            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges38;
             guna2GroupBox1.Size = new Size(1302, 366);
             guna2GroupBox1.TabIndex = 11;
-            guna2GroupBox1.Text = "User information";
+            guna2GroupBox1.Text = "Year information";
             guna2GroupBox1.UseWaitCursor = true;
             // 
             // guna2Button2
             // 
             guna2Button2.Anchor = AnchorStyles.Right;
             guna2Button2.BackColor = Color.Green;
-            guna2Button2.CustomizableEdges = customizableEdges19;
+            guna2Button2.CustomizableEdges = customizableEdges39;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -364,13 +309,14 @@
             guna2Button2.FillColor = Color.FromArgb(0, 0, 64);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(1019, 519);
+            guna2Button2.Location = new Point(149, 522);
             guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2Button2.Size = new Size(251, 56);
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            guna2Button2.Size = new Size(352, 56);
             guna2Button2.TabIndex = 6;
             guna2Button2.Text = "Smester";
             guna2Button2.UseWaitCursor = true;
+            guna2Button2.Click += guna2Button2_Click;
             // 
             // guna2HtmlLabel1
             // 
@@ -385,15 +331,48 @@
             guna2HtmlLabel1.Text = "Years  Manegment";
             guna2HtmlLabel1.UseWaitCursor = true;
             // 
+            // dgv_Year_info
+            // 
+            dgv_Year_info.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dgv_Year_info.BackgroundColor = Color.FromArgb(241, 237, 228);
+            dgv_Year_info.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_Year_info.Location = new Point(2, 595);
+            dgv_Year_info.Name = "dgv_Year_info";
+            dgv_Year_info.RowHeadersWidth = 51;
+            dgv_Year_info.Size = new Size(1302, 257);
+            dgv_Year_info.TabIndex = 15;
+            // 
+            // guna2Button3
+            // 
+            guna2Button3.Anchor = AnchorStyles.Right;
+            guna2Button3.BackColor = Color.FromArgb(242, 238, 229);
+            guna2Button3.CustomizableEdges = customizableEdges41;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.FillColor = Color.FromArgb(192, 0, 0);
+            guna2Button3.Font = new Font("Dubai", 18F, FontStyle.Bold);
+            guna2Button3.ForeColor = Color.FromArgb(0, 0, 64);
+            guna2Button3.Location = new Point(704, 522);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            guna2Button3.Size = new Size(385, 56);
+            guna2Button3.TabIndex = 19;
+            guna2Button3.Text = "Back <ـــــــــ";
+            guna2Button3.UseWaitCursor = true;
+            guna2Button3.Click += guna2Button3_Click;
+            // 
             // Yaers
             // 
             AutoScaleDimensions = new SizeF(15F, 45F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(241, 237, 228);
-            ClientSize = new Size(1304, 829);
+            ClientSize = new Size(1304, 856);
+            Controls.Add(guna2Button3);
+            Controls.Add(dgv_Year_info);
             Controls.Add(guna2Button2);
             Controls.Add(guna2Button1);
-            Controls.Add(dgv_Year_info);
             Controls.Add(butMin);
             Controls.Add(guna2GroupBox1);
             Controls.Add(guna2HtmlLabel1);
@@ -404,9 +383,9 @@
             Text = "Yaers";
             WindowState = FormWindowState.Maximized;
             Load += Yaers_Load;
-            ((System.ComponentModel.ISupportInitialize)dgv_Year_info).EndInit();
             guna2GroupBox1.ResumeLayout(false);
             guna2GroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgv_Year_info).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -414,7 +393,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2DataGridView dgv_Year_info;
         private Guna.UI2.WinForms.Guna2TextBox Tex_Year_label;
         private Guna.UI2.WinForms.Guna2Button But_clear;
         private Guna.UI2.WinForms.Guna2TextBox Tex_Year_id;
@@ -427,5 +405,7 @@
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private DataGridView dgv_Year_info;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
     }
 }

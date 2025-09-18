@@ -78,3 +78,4 @@ C:\Users\Admin\source\repos\univercity management system\Univercity Management S
 C:\Users\Admin\source\repos\univercity management system\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.create_users.resources
 C:\Users\Admin\source\repos\univercity management system\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.LoginHistoryForm.resources
 C:\Users\Admin\source\repos\univercity management system\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.Yaers.resources
+C:\Users\Admin\source\repos\Univercity Management System\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.Semester.resources

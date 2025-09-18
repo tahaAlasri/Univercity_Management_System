@@ -44,7 +44,9 @@ namespace Univercity_Management_System
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        
+
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
             create_users cu = new create_users();
             cu.Show();

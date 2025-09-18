@@ -149,5 +149,12 @@ namespace Univercity_Management_System
             LoginHistoryForm logForm = new LoginHistoryForm();
             logForm.ShowDialog();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            DashboardForm cu = new DashboardForm();
+            cu.Show();
+            this.Hide();
+        }
     }
 }

@@ -135,5 +135,19 @@ namespace Univercity_Management_System
             this.WindowState = FormWindowState.Minimized;
 
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Semester sem = new Semester();
+            sem.Show();
+            this.Hide();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            DashboardForm cu = new DashboardForm();
+            cu.Show();
+            this.Hide();
+        }
     }
 }

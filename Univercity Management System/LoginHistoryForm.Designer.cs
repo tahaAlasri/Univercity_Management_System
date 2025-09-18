@@ -35,10 +35,12 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             dgvLoginHistory = new Guna.UI2.WinForms.Guna2DataGridView();
             butMin = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            button9 = new Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)dgvLoginHistory).BeginInit();
             SuspendLayout();
             // 
@@ -141,19 +143,26 @@
             guna2Button1.UseWaitCursor = true;
             guna2Button1.Click += guna2Button1_Click_1;
             // 
-            // button9
+            // guna2Button2
             // 
-            button9.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button9.BackColor = Color.FromArgb(241, 237, 228);
-            button9.Font = new Font("Dubai", 16F, FontStyle.Bold);
-            button9.ForeColor = Color.Maroon;
-            button9.Location = new Point(597, 482);
-            button9.Name = "button9";
-            button9.Size = new Size(214, 59);
-            button9.TabIndex = 12;
-            button9.Text = "Exit";
-            button9.UseVisualStyleBackColor = false;
-            button9.Click += button9_Click;
+            guna2Button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            guna2Button2.BackColor = Color.FromArgb(242, 238, 229);
+            guna2Button2.CustomizableEdges = customizableEdges5;
+            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button2.FillColor = Color.FromArgb(192, 0, 0);
+            guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
+            guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
+            guna2Button2.Location = new Point(350, 485);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2Button2.Size = new Size(461, 56);
+            guna2Button2.TabIndex = 19;
+            guna2Button2.Text = "Back <ـــــــــ";
+            guna2Button2.UseWaitCursor = true;
+            guna2Button2.Click += guna2Button2_Click;
             // 
             // LoginHistoryForm
             // 
@@ -161,7 +170,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(241, 237, 228);
             ClientSize = new Size(823, 553);
-            Controls.Add(button9);
+            Controls.Add(guna2Button2);
             Controls.Add(butMin);
             Controls.Add(guna2Button1);
             Controls.Add(dgvLoginHistory);
@@ -181,6 +190,6 @@
         private Guna.UI2.WinForms.Guna2DataGridView dgvLoginHistory;
         private Guna.UI2.WinForms.Guna2Button butMin;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Button button9;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }
