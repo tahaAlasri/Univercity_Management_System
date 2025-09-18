@@ -133,6 +133,7 @@
             butYears.TabIndex = 6;
             butYears.Text = "Years  Manegment";
             butYears.UseVisualStyleBackColor = false;
+            butYears.Click += butYears_Click;
             // 
             // butDepartment
             // 

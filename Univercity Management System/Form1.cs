@@ -7,6 +7,7 @@ namespace Univercity_Management_System
 {
     public partial class Form1 : Form
     {
+
         private string myConn = Properties.Settings.Default.Univercity_CRUD;
 
         public Form1()

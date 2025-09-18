@@ -36,8 +36,15 @@ namespace Univercity_Management_System
 
         private void butUsers_Click(object sender, EventArgs e)
         {
-            create_users frm = new create_users(); 
+            create_users frm = new create_users();
             frm.Show();
+            this.Hide();
+        }
+
+        private void butYears_Click(object sender, EventArgs e)
+        {
+            Yaers yaer = new Yaers();
+            yaer.Show();
             this.Hide();
         }
     }
