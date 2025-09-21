@@ -47,5 +47,22 @@ namespace Univercity_Management_System
             yaer.Show();
             this.Hide();
         }
+
+        private void butLecturer_Click(object sender, EventArgs e)
+        {
+            LecturerForm lec = new LecturerForm();
+            lec.Show();
+            this.Hide();
+        }
+
+        private void DashboardForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

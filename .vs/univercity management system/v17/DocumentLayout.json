@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity management system\\univercity management system\\semester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\semester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity_management_system\\univercity management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\Admin\\source\\repos\\Univercity Management System\\univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\create_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity_management_system\\univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity_management_system\\univercity management system\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity_management_system\\univercity management system\\yaers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\yaers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity_management_system\\univercity management system\\yaers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\yaers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity_management_system\\univercity management system\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|c:\\users\\admin\\source\\repos\\univercity_management_system\\univercity management system\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5BC824-8D1A-4361-8096-984F29E0E0CB}|Univercity Management System\\Univercity Management System.csproj|solutionrelative:univercity management system\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,31 +57,105 @@
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Program.cs",
+              "RelativeToolTip": "Univercity Management System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T22:18:27.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Semester.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Semester.cs",
-              "RelativeDocumentMoniker": "Univercity Management System\\Semester.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\Semester.cs [Design]",
-              "RelativeToolTip": "Univercity Management System\\Semester.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Yaers.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Yaers.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\Yaers.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Yaers.cs",
+              "RelativeToolTip": "Univercity Management System\\Yaers.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAkwJMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:13:11.045Z",
+              "WhenOpened": "2025-09-21T21:51:57.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LecturerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\LecturerForm.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\LecturerForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\LecturerForm.cs [Design]",
+              "RelativeToolTip": "Univercity Management System\\LecturerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:13:26.854Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "create_users.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\create_users.cs",
-              "RelativeDocumentMoniker": "Univercity Management System\\create_users.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity Management System\\Univercity Management System\\create_users.cs [Design]",
-              "RelativeToolTip": "Univercity Management System\\create_users.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Lecturer.cs",
+              "RelativeToolTip": "Univercity Management System\\Lecturer.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAIwLEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T14:51:16.038Z"
+              "WhenOpened": "2025-09-21T21:10:36.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\DashboardForm.cs [Design]",
+              "RelativeToolTip": "Univercity Management System\\DashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:10:17.813Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Yaers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Yaers.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\Yaers.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Yaers.cs [Design]",
+              "RelativeToolTip": "Univercity Management System\\Yaers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:51:44.592Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\DashboardForm.cs",
+              "RelativeToolTip": "Univercity Management System\\DashboardForm.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAlwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:31:41.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LecturerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\LecturerForm.cs",
+              "RelativeDocumentMoniker": "Univercity Management System\\LecturerForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\LecturerForm.cs",
+              "RelativeToolTip": "Univercity Management System\\LecturerForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:17:58.24Z",
+              "EditorCaption": ""
             }
           ]
         }
