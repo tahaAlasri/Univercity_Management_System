@@ -130,7 +130,7 @@
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.FromArgb(192, 0, 0);
+            guna2Button2.FillColor = Color.FromArgb(26, 125, 139);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
             guna2Button2.Location = new Point(690, 426);
@@ -250,7 +250,7 @@
             But_clear.DisabledState.CustomBorderColor = Color.DarkGray;
             But_clear.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_clear.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_clear.FillColor = Color.FromArgb(192, 0, 0);
+            But_clear.FillColor = Color.FromArgb(158, 158, 158);
             But_clear.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_clear.ForeColor = Color.FromArgb(0, 0, 64);
             But_clear.Location = new Point(940, 192);
@@ -298,7 +298,7 @@
             But_delete.DisabledState.CustomBorderColor = Color.DarkGray;
             But_delete.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_delete.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_delete.FillColor = Color.FromArgb(192, 0, 0);
+            But_delete.FillColor = Color.FromArgb(244, 67, 54);
             But_delete.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_delete.ForeColor = Color.FromArgb(0, 0, 64);
             But_delete.Location = new Point(690, 192);
@@ -333,7 +333,7 @@
             But_update.DisabledState.CustomBorderColor = Color.DarkGray;
             But_update.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_update.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_update.FillColor = Color.Green;
+            But_update.FillColor = Color.FromArgb(76, 175, 80);
             But_update.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_update.ForeColor = Color.FromArgb(0, 0, 64);
             But_update.Location = new Point(940, 88);
@@ -368,7 +368,7 @@
             But_add.DisabledState.CustomBorderColor = Color.DarkGray;
             But_add.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_add.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_add.FillColor = Color.Green;
+            But_add.FillColor = Color.FromArgb(76, 175, 80);
             But_add.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_add.ForeColor = Color.FromArgb(0, 0, 64);
             But_add.Location = new Point(690, 88);

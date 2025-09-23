@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             button1 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -52,7 +52,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Green;
+            button1.BackColor = Color.FromArgb(76, 175, 80);
             button1.Location = new Point(758, 72);
             button1.Margin = new Padding(4, 3, 4, 3);
             button1.Name = "button1";
@@ -64,7 +64,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Maroon;
+            button3.BackColor = Color.FromArgb(244, 67, 54);
             button3.Location = new Point(573, 174);
             button3.Margin = new Padding(4, 3, 4, 3);
             button3.Name = "button3";
@@ -76,7 +76,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Maroon;
+            button4.BackColor = Color.FromArgb(158, 158, 158);
             button4.Location = new Point(765, 174);
             button4.Margin = new Padding(4, 3, 4, 3);
             button4.Name = "button4";
@@ -108,7 +108,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Green;
+            button2.BackColor = Color.FromArgb(76, 175, 80);
             button2.Location = new Point(573, 72);
             button2.Margin = new Padding(4, 3, 4, 3);
             button2.Name = "button2";
@@ -164,8 +164,8 @@
             // 
             // button5
             // 
-            button5.BackColor = Color.Red;
-            button5.ForeColor = Color.Navy;
+            button5.BackColor = Color.FromArgb(26, 125, 139);
+            button5.ForeColor = Color.White;
             button5.Location = new Point(573, 270);
             button5.Margin = new Padding(4, 3, 4, 3);
             button5.Name = "button5";
@@ -194,7 +194,7 @@
             butMin.BackColor = Color.FromArgb(241, 237, 228);
             butMin.BorderColor = Color.FromArgb(241, 237, 228);
             butMin.BorderRadius = 5;
-            butMin.CustomizableEdges = customizableEdges1;
+            butMin.CustomizableEdges = customizableEdges13;
             butMin.DisabledState.BorderColor = Color.DarkGray;
             butMin.DisabledState.CustomBorderColor = Color.DarkGray;
             butMin.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -204,7 +204,7 @@
             butMin.ForeColor = Color.FromArgb(0, 0, 64);
             butMin.Location = new Point(963, 10);
             butMin.Name = "butMin";
-            butMin.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            butMin.ShadowDecoration.CustomizableEdges = customizableEdges14;
             butMin.Size = new Size(42, 42);
             butMin.TabIndex = 19;
             butMin.Text = "-";
@@ -216,7 +216,7 @@
             guna2Button1.BackColor = Color.FromArgb(241, 237, 228);
             guna2Button1.BorderColor = Color.FromArgb(241, 237, 228);
             guna2Button1.BorderRadius = 5;
-            guna2Button1.CustomizableEdges = customizableEdges3;
+            guna2Button1.CustomizableEdges = customizableEdges15;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(241, 237, 228);
@@ -226,7 +226,7 @@
             guna2Button1.ForeColor = Color.FromArgb(0, 0, 64);
             guna2Button1.Location = new Point(1013, 10);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2Button1.Size = new Size(38, 42);
             guna2Button1.TabIndex = 18;
             guna2Button1.Text = "X";

@@ -154,7 +154,7 @@
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.FromArgb(192, 0, 0);
+            guna2Button2.FillColor = Color.FromArgb(158, 158, 158);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
             guna2Button2.Location = new Point(350, 485);

@@ -118,7 +118,7 @@ namespace Univercity_Management_System
             but_print.DisabledState.CustomBorderColor = Color.DarkGray;
             but_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             but_print.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            but_print.FillColor = Color.FromArgb(0, 0, 64);
+            but_print.FillColor = Color.FromArgb(33, 150, 243);
             but_print.FocusedColor = Color.White;
             but_print.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_print.ForeColor = Color.White;
@@ -154,7 +154,7 @@ namespace Univercity_Management_System
             but_back.DisabledState.CustomBorderColor = Color.DarkGray;
             but_back.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             but_back.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            but_back.FillColor = Color.FromArgb(192, 0, 0);
+            but_back.FillColor = Color.FromArgb(96, 125, 139);
             but_back.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_back.ForeColor = Color.FromArgb(0, 0, 64);
             but_back.Location = new Point(678, 552);
@@ -226,7 +226,7 @@ namespace Univercity_Management_System
             But_clear.DisabledState.CustomBorderColor = Color.DarkGray;
             But_clear.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_clear.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_clear.FillColor = Color.FromArgb(192, 0, 0);
+            But_clear.FillColor = Color.FromArgb(244, 67, 54);
             But_clear.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_clear.ForeColor = Color.FromArgb(0, 0, 64);
             But_clear.Location = new Point(891, 369);
@@ -275,7 +275,7 @@ namespace Univercity_Management_System
             But_delete.DisabledState.CustomBorderColor = Color.DarkGray;
             But_delete.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_delete.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_delete.FillColor = Color.FromArgb(192, 0, 0);
+            But_delete.FillColor = Color.FromArgb(244, 67, 54);
             But_delete.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_delete.ForeColor = Color.FromArgb(0, 0, 64);
             But_delete.Location = new Point(678, 369);
@@ -311,7 +311,7 @@ namespace Univercity_Management_System
             But_update.DisabledState.CustomBorderColor = Color.DarkGray;
             But_update.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_update.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_update.FillColor = Color.Green;
+            But_update.FillColor = Color.FromArgb(76, 175, 80);
             But_update.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_update.ForeColor = Color.FromArgb(0, 0, 64);
             But_update.Location = new Point(891, 273);
@@ -334,7 +334,7 @@ namespace Univercity_Management_System
             But_add.DisabledState.CustomBorderColor = Color.DarkGray;
             But_add.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             But_add.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            But_add.FillColor = Color.Green;
+            But_add.FillColor = Color.FromArgb(76, 175, 80);
             But_add.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_add.ForeColor = Color.FromArgb(0, 0, 64);
             But_add.Location = new Point(678, 273);
@@ -527,7 +527,7 @@ namespace Univercity_Management_System
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.FromArgb(0, 0, 64);
+            guna2Button2.FillColor = Color.FromArgb(3, 169, 244);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.White;
             guna2Button2.Location = new Point(678, 187);
@@ -630,7 +630,7 @@ namespace Univercity_Management_System
             // guna2Panel1
             // 
             guna2Panel1.Anchor = AnchorStyles.None;
-            guna2Panel1.BackColor = Color.FromArgb(0, 0, 64);
+            guna2Panel1.BackColor = Color.FromArgb(241, 237, 228);
             guna2Panel1.BorderRadius = 20;
             guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             guna2Panel1.Controls.Add(Label_email);
@@ -639,6 +639,7 @@ namespace Univercity_Management_System
             guna2Panel1.Controls.Add(guna2HtmlLabel6);
             guna2Panel1.Controls.Add(pb_yourCardPic);
             guna2Panel1.CustomizableEdges = customizableEdges37;
+            guna2Panel1.FillColor = Color.FromArgb(13, 71, 161);
             guna2Panel1.Location = new Point(321, 83);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges38;
@@ -731,10 +732,10 @@ namespace Univercity_Management_System
             but_card.FocusedColor = Color.White;
             but_card.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_card.ForeColor = Color.White;
-            but_card.Location = new Point(973, 780);
+            but_card.Location = new Point(798, 780);
             but_card.Name = "but_card";
             but_card.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            but_card.Size = new Size(144, 56);
+            but_card.Size = new Size(319, 56);
             but_card.TabIndex = 33;
             but_card.Text = "Card";
             but_card.UseWaitCursor = true;
@@ -750,16 +751,16 @@ namespace Univercity_Management_System
             Back.DisabledState.CustomBorderColor = Color.DarkGray;
             Back.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             Back.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            Back.FillColor = Color.FromArgb(0, 0, 64);
+            Back.FillColor = Color.FromArgb(96, 125, 139);
             Back.FocusedColor = Color.White;
             Back.Font = new Font("Dubai", 18F, FontStyle.Bold);
             Back.ForeColor = Color.White;
-            Back.Location = new Point(973, 780);
+            Back.Location = new Point(798, 780);
             Back.Name = "Back";
             Back.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            Back.Size = new Size(144, 56);
+            Back.Size = new Size(319, 56);
             Back.TabIndex = 35;
-            Back.Text = "Back";
+            Back.Text = "Back <ـــــــــ";
             Back.UseWaitCursor = true;
             Back.Click += Back_Click;
             // 
