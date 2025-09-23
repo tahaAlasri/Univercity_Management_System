@@ -1893,23 +1893,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HAMATI\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HAMATI\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
       "projectName": "Univercity Management System",
-      "projectPath": "C:\\Users\\HAMATI\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
-      "packagesPath": "C:\\Users\\HAMATI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HAMATI\\source\\repos\\Univercity_Management_System\\Univercity Management System\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HAMATI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1966,24 +1966,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

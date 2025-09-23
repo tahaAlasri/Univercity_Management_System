@@ -93,6 +93,7 @@
             dgv_Lecturer_info.TabIndex = 15;
             dgv_Lecturer_info.UseWaitCursor = true;
             dgv_Lecturer_info.CellContentClick += dgv_Lecturer_info_CellContentClick;
+            dgv_Lecturer_info.RowHeaderMouseClick += dgv_Lecturer_info_RowHeaderMouseClick;
             // 
             // butMin
             // 
@@ -121,6 +122,7 @@
             // 
             but_back.Anchor = AnchorStyles.Right;
             but_back.BackColor = Color.FromArgb(242, 238, 229);
+            but_back.BorderRadius = 10;
             but_back.CustomizableEdges = customizableEdges3;
             but_back.DisabledState.BorderColor = Color.DarkGray;
             but_back.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -133,7 +135,7 @@
             but_back.Name = "but_back";
             but_back.ShadowDecoration.CustomizableEdges = customizableEdges4;
             but_back.Size = new Size(378, 56);
-            but_back.TabIndex = 19;
+            but_back.TabIndex = 8;
             but_back.Text = "Back <ـــــــــ";
             but_back.UseWaitCursor = true;
             but_back.Click += but_back_Click_1;
@@ -141,6 +143,7 @@
             // Tex_rank
             // 
             Tex_rank.Anchor = AnchorStyles.Left;
+            Tex_rank.BorderRadius = 10;
             Tex_rank.CustomizableEdges = customizableEdges5;
             Tex_rank.DefaultText = "";
             Tex_rank.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -158,13 +161,14 @@
             Tex_rank.SelectedText = "";
             Tex_rank.ShadowDecoration.CustomizableEdges = customizableEdges6;
             Tex_rank.Size = new Size(356, 47);
-            Tex_rank.TabIndex = 7;
+            Tex_rank.TabIndex = 3;
             Tex_rank.TextAlign = HorizontalAlignment.Center;
             Tex_rank.UseWaitCursor = true;
             // 
             // Tex_name
             // 
             Tex_name.Anchor = AnchorStyles.Left;
+            Tex_name.BorderRadius = 10;
             Tex_name.CustomizableEdges = customizableEdges7;
             Tex_name.DefaultText = "";
             Tex_name.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -182,7 +186,7 @@
             Tex_name.SelectedText = "";
             Tex_name.ShadowDecoration.CustomizableEdges = customizableEdges8;
             Tex_name.Size = new Size(356, 47);
-            Tex_name.TabIndex = 5;
+            Tex_name.TabIndex = 2;
             Tex_name.TextAlign = HorizontalAlignment.Center;
             Tex_name.UseWaitCursor = true;
             // 
@@ -190,6 +194,7 @@
             // 
             But_clear.Anchor = AnchorStyles.Right;
             But_clear.BackColor = Color.FromArgb(242, 238, 229);
+            But_clear.BorderRadius = 10;
             But_clear.CustomizableEdges = customizableEdges9;
             But_clear.DisabledState.BorderColor = Color.DarkGray;
             But_clear.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -202,7 +207,7 @@
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges10;
             But_clear.Size = new Size(165, 56);
-            But_clear.TabIndex = 5;
+            But_clear.TabIndex = 7;
             But_clear.Text = "Clear";
             But_clear.UseWaitCursor = true;
             But_clear.Click += But_clear_Click_1;
@@ -210,17 +215,19 @@
             // Tex_Lecturerid
             // 
             Tex_Lecturerid.Anchor = AnchorStyles.Left;
+            Tex_Lecturerid.BorderRadius = 10;
             Tex_Lecturerid.CustomizableEdges = customizableEdges11;
             Tex_Lecturerid.DefaultText = "";
             Tex_Lecturerid.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             Tex_Lecturerid.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             Tex_Lecturerid.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Tex_Lecturerid.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            Tex_Lecturerid.Enabled = false;
             Tex_Lecturerid.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Tex_Lecturerid.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Tex_Lecturerid.ForeColor = Color.FromArgb(0, 0, 64);
             Tex_Lecturerid.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Tex_Lecturerid.Location = new Point(268, 77);
+            Tex_Lecturerid.Location = new Point(268, 76);
             Tex_Lecturerid.Margin = new Padding(5, 8, 5, 8);
             Tex_Lecturerid.Name = "Tex_Lecturerid";
             Tex_Lecturerid.PlaceholderText = "";
@@ -228,7 +235,7 @@
             Tex_Lecturerid.ShadowDecoration.CustomizableEdges = customizableEdges12;
             Tex_Lecturerid.ShortcutsEnabled = false;
             Tex_Lecturerid.Size = new Size(356, 47);
-            Tex_Lecturerid.TabIndex = 4;
+            Tex_Lecturerid.TabIndex = 1;
             Tex_Lecturerid.TextAlign = HorizontalAlignment.Center;
             Tex_Lecturerid.UseWaitCursor = true;
             // 
@@ -236,6 +243,7 @@
             // 
             But_delete.Anchor = AnchorStyles.Right;
             But_delete.BackColor = Color.FromArgb(242, 238, 229);
+            But_delete.BorderRadius = 10;
             But_delete.CustomizableEdges = customizableEdges13;
             But_delete.DisabledState.BorderColor = Color.DarkGray;
             But_delete.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -248,7 +256,7 @@
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges14;
             But_delete.Size = new Size(165, 56);
-            But_delete.TabIndex = 4;
+            But_delete.TabIndex = 6;
             But_delete.Text = "Delete";
             But_delete.UseWaitCursor = true;
             But_delete.Click += But_delete_Click_1;
@@ -269,7 +277,8 @@
             // But_update
             // 
             But_update.Anchor = AnchorStyles.Right;
-            But_update.BackColor = Color.Green;
+            But_update.BackColor = Color.FromArgb(241, 237, 228);
+            But_update.BorderRadius = 10;
             But_update.CustomizableEdges = customizableEdges15;
             But_update.DisabledState.BorderColor = Color.DarkGray;
             But_update.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -282,7 +291,7 @@
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges16;
             But_update.Size = new Size(165, 56);
-            But_update.TabIndex = 3;
+            But_update.TabIndex = 5;
             But_update.Text = "Update";
             But_update.UseWaitCursor = true;
             But_update.Click += But_update_Click;
@@ -290,7 +299,8 @@
             // But_add
             // 
             But_add.Anchor = AnchorStyles.Right;
-            But_add.BackColor = Color.Green;
+            But_add.BackColor = Color.FromArgb(241, 237, 228);
+            But_add.BorderRadius = 10;
             But_add.CustomizableEdges = customizableEdges17;
             But_add.DisabledState.BorderColor = Color.DarkGray;
             But_add.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -303,7 +313,7 @@
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges18;
             But_add.Size = new Size(165, 56);
-            But_add.TabIndex = 2;
+            But_add.TabIndex = 4;
             But_add.Text = "Add";
             But_add.UseWaitCursor = true;
             But_add.Click += But_add_Click;
@@ -391,6 +401,7 @@
             // 
             but_print.Anchor = AnchorStyles.Right;
             but_print.BackColor = Color.FromArgb(242, 238, 229);
+            but_print.BorderRadius = 10;
             but_print.CustomizableEdges = customizableEdges21;
             but_print.DisabledState.BorderColor = Color.DarkGray;
             but_print.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -404,7 +415,7 @@
             but_print.Name = "but_print";
             but_print.ShadowDecoration.CustomizableEdges = customizableEdges22;
             but_print.Size = new Size(378, 56);
-            but_print.TabIndex = 22;
+            but_print.TabIndex = 9;
             but_print.Text = "Print";
             but_print.UseWaitCursor = true;
             but_print.Click += but_print_Click_1;
@@ -412,6 +423,7 @@
             // tex_Dep_id
             // 
             tex_Dep_id.Anchor = AnchorStyles.Left;
+            tex_Dep_id.BorderRadius = 10;
             tex_Dep_id.CustomizableEdges = customizableEdges23;
             tex_Dep_id.DefaultText = "";
             tex_Dep_id.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);

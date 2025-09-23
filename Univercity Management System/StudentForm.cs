@@ -19,11 +19,37 @@ namespace Univercity_Management_System
     {
         private Student student = new Student();
         private string connectionString = Properties.Settings.Default.Univercity_CRUD;
+        private void LoadLecturers()
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string query = "SELECT lecturer_id, name FROM Lecturer";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    SqlDataReader reader = cmd.ExecuteReader();
 
+                    cb_lecturer_id.Items.Clear();
+                    while (reader.Read())
+                    {
+                        // عرض الـ ID والاسم معاً ولكن تخزين الـ ID فقط كـ Tag
+                        string displayText = $"{reader["lecturer_id"]} - {reader["name"]}";
+                        cb_lecturer_id.Items.Add(displayText);
+                    }
+                    reader.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading lecturers: " + ex.Message);
+            }
+        }
         public StudentForm()
         {
             InitializeComponent();
             LoadStudents();
+            LoadLecturers();
         }
         private void LoadStudents()
         {
@@ -81,7 +107,7 @@ namespace Univercity_Management_System
                 yPos += 30;
                 e.Graphics.DrawString($"Program ID: {tex_programID.Text}", font, brush, leftMargin, yPos);
                 yPos += 30;
-                e.Graphics.DrawString($"Advisor ID: {tex_advisor_id.Text}", font, brush, leftMargin, yPos);
+                e.Graphics.DrawString($"Advisor ID: {cb_lecturer_id.Text}", font, brush, leftMargin, yPos);
                 yPos += 30;
 
                 if (Pb_yourPic.Image != null)
@@ -128,14 +154,39 @@ namespace Univercity_Management_System
         {
             try
             {
+                // التحقق من الحقول المطلوبة
+                if (string.IsNullOrEmpty(Tex_name.Text.Trim()))
+                {
+                    MessageBox.Show("Please enter student name.");
+                    return;
+                }
+
                 student.Name = Tex_name.Text.Trim();
                 student.DOB = dtp_Student.Value;
                 student.Email = Tex_email.Text.Trim();
 
-                // تحويل ProgramID و LectuereID إلى int
-                student.ProgramID = string.IsNullOrEmpty(tex_programID.Text) ? (int?)null : int.Parse(tex_programID.Text);
-                student.LectuereID = string.IsNullOrEmpty(tex_advisor_id.Text) ? (int?)null : int.Parse(tex_advisor_id.Text);
+                // التحقق من ProgramID
+                if (string.IsNullOrEmpty(tex_programID.Text))
+                {
+                    MessageBox.Show("Please enter Program ID.");
+                    return;
+                }
 
+                int programId = int.Parse(tex_programID.Text);
+                student.ProgramID = programId;
+
+                // التحقق من LecturerID واستخراج الـ ID من النص
+                if (string.IsNullOrEmpty(cb_lecturer_id.Text))
+                {
+                    MessageBox.Show("Please select an Advisor.");
+                    return;
+                }
+
+                string lecturerText = cb_lecturer_id.Text;
+                string lecturerIdStr = lecturerText.Split('-')[0].Trim(); // أخذ الجزء قبل -
+                int lecturerId = int.Parse(lecturerIdStr);
+
+                student.LecturerID = lecturerId;
                 student.Image = Pb_yourPic.Image != null ? ImageToByteArray(Pb_yourPic.Image) : null;
 
                 if (student.AddStudent())
@@ -149,47 +200,67 @@ namespace Univercity_Management_System
                     MessageBox.Show("Failed to add student.");
                 }
             }
+            catch (FormatException)
+            {
+                MessageBox.Show("Please enter valid numeric values for Program ID and Advisor ID.");
+            }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show("Error adding student: " + ex.Message);
             }
         }
 
         private void But_update_Click(object sender, EventArgs e)
         {
             try
-    {
-        if (string.IsNullOrEmpty(Tex_Student_id.Text))
-        {
-            MessageBox.Show("Please select a student to update.");
-            return;
-        }
+            {
+                if (string.IsNullOrEmpty(Tex_Student_id.Text))
+                {
+                    MessageBox.Show("Please select a student to update.");
+                    return;
+                }
 
-        student.StudentID = Tex_Student_id.Text.Trim();
-        student.Name = Tex_name.Text.Trim();
-        student.DOB = dtp_Student.Value;
-        student.Email = Tex_email.Text.Trim();
+                student.StudentID = int.Parse(Tex_Student_id.Text.Trim());
+                student.Name = Tex_name.Text.Trim();
+                student.DOB = dtp_Student.Value;
+                student.Email = Tex_email.Text.Trim();
 
-        student.ProgramID = string.IsNullOrEmpty(tex_programID.Text) ? (int?)null : int.Parse(tex_programID.Text);
-        student.LectuereID = string.IsNullOrEmpty(tex_advisor_id.Text) ? (int?)null : int.Parse(tex_advisor_id.Text);
+                // التحقق من ProgramID
+                if (string.IsNullOrEmpty(tex_programID.Text))
+                {
+                    MessageBox.Show("Please enter Program ID.");
+                    return;
+                }
+                student.ProgramID = int.Parse(tex_programID.Text);
 
-        student.Image = Pb_yourPic.Image != null ? ImageToByteArray(Pb_yourPic.Image) : null;
+                // التحقق من LecturerID واستخراج الـ ID
+                if (string.IsNullOrEmpty(cb_lecturer_id.Text))
+                {
+                    MessageBox.Show("Please select an Advisor.");
+                    return;
+                }
 
-        if (student.UpdateStudent())
-        {
-            MessageBox.Show("Student updated successfully!");
-            ClearFields();
-            LoadStudents();
-        }
-        else
-        {
-            MessageBox.Show("Failed to update student.");
-        }
-    }
-    catch (Exception ex)
-    {
-        MessageBox.Show("Error: " + ex.Message);
-    }
+                string lecturerText = cb_lecturer_id.Text;
+                string lecturerIdStr = lecturerText.Split('-')[0].Trim();
+                student.LecturerID = int.Parse(lecturerIdStr);
+
+                student.Image = Pb_yourPic.Image != null ? ImageToByteArray(Pb_yourPic.Image) : null;
+
+                if (student.UpdateStudent())
+                {
+                    MessageBox.Show("Student updated successfully!");
+                    ClearFields();
+                    LoadStudents();
+                }
+                else
+                {
+                    MessageBox.Show("Failed to update student.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error updating student: " + ex.Message);
+            }
         }
 
         private void But_delete_Click(object sender, EventArgs e)
@@ -205,7 +276,7 @@ namespace Univercity_Management_System
                 if (MessageBox.Show("Are you sure you want to delete this student?", "Confirm Delete",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                    student.StudentID = Tex_Student_id.Text.Trim();
+                    student.StudentID = int.Parse(Tex_Student_id.Text.Trim());
 
                     if (student.DeleteStudent())
                     {
@@ -231,24 +302,54 @@ namespace Univercity_Management_System
             dtp_Student.Value = DateTime.Now;
             Tex_email.Clear();
             tex_programID.Clear();
-            tex_advisor_id.Clear();
             Pb_yourPic.Image = null;
         }
 
         private byte[] ImageToByteArray(Image image)
         {
+            if (image == null) return null;
+
             using (MemoryStream ms = new MemoryStream())
             {
-                image.Save(ms, image.RawFormat);
+                image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
                 return ms.ToArray();
             }
         }
 
         private Image ByteArrayToImage(byte[] byteArray)
         {
-            using (MemoryStream ms = new MemoryStream(byteArray))
+            if (byteArray == null || byteArray.Length == 0) return null;
+
+            try
             {
-                return Image.FromStream(ms);
+                using (MemoryStream ms = new MemoryStream(byteArray))
+                {
+                    Image originalImage = Image.FromStream(ms);
+
+                    // الحفاظ على نسبة الطول والعرض
+                    double ratioX = (double)Pb_yourPic.Width / originalImage.Width;
+                    double ratioY = (double)Pb_yourPic.Height / originalImage.Height;
+                    double ratio = Math.Min(ratioX, ratioY);
+
+                    int newWidth = (int)(originalImage.Width * ratio);
+                    int newHeight = (int)(originalImage.Height * ratio);
+
+                    Bitmap resizedImage = new Bitmap(newWidth, newHeight);
+
+                    using (Graphics graphics = Graphics.FromImage(resizedImage))
+                    {
+                        graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+                        graphics.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                        graphics.DrawImage(originalImage, 0, 0, newWidth, newHeight);
+                    }
+
+                    originalImage.Dispose();
+                    return resizedImage;
+                }
+            }
+            catch
+            {
+                return null;
             }
         }
         private void dgv_Lecturer_info_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -257,17 +358,30 @@ namespace Univercity_Management_System
             {
                 DataGridViewRow row = dgv_Student_info.Rows[e.RowIndex];
 
-                Tex_Student_id.Text = row.Cells["student_id"].Value.ToString();
-                Tex_name.Text = row.Cells["name"].Value.ToString();
+                Tex_Student_id.Text = row.Cells["student_id"].Value?.ToString() ?? "";
+                Tex_name.Text = row.Cells["name"].Value?.ToString() ?? "";
 
-                if (row.Cells["dob"].Value != DBNull.Value)
+                if (row.Cells["dob"].Value != null && row.Cells["dob"].Value != DBNull.Value)
                     dtp_Student.Value = Convert.ToDateTime(row.Cells["dob"].Value);
 
-                Tex_email.Text = row.Cells["email"].Value.ToString();
-                tex_programID.Text = row.Cells["program_id"].Value.ToString();
-                tex_advisor_id.Text = row.Cells["lectuere_id"].Value.ToString();
+                Tex_email.Text = row.Cells["email"].Value?.ToString() ?? "";
+                tex_programID.Text = row.Cells["program_id"].Value?.ToString() ?? "";
 
-                if (row.Cells["image"].Value != DBNull.Value)
+                // البحث عن النص المناسب في الـ ComboBox بناءً على الـ ID
+                string lecturerId = row.Cells["lectuere_id"].Value?.ToString() ?? "";
+                if (!string.IsNullOrEmpty(lecturerId))
+                {
+                    foreach (string item in cb_lecturer_id.Items)
+                    {
+                        if (item.StartsWith(lecturerId + " - "))
+                        {
+                            cb_lecturer_id.Text = item;
+                            break;
+                        }
+                    }
+                }
+
+                if (row.Cells["image"].Value != null && row.Cells["image"].Value != DBNull.Value)
                 {
                     byte[] imageData = (byte[])row.Cells["image"].Value;
                     Pb_yourPic.Image = ByteArrayToImage(imageData);
@@ -275,8 +389,6 @@ namespace Univercity_Management_System
                 else
                 {
                     Pb_yourPic.Image = null;
-                    {
-                    }
                 }
             }
         }
@@ -284,6 +396,54 @@ namespace Univercity_Management_System
         private void But_clear_Click(object sender, EventArgs e)
         {
             ClearFields();
+        }
+        private void dgv_Student_info_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+
+            try
+            {
+                var index = e.RowIndex;
+                DataGridViewRow row = dgv_Student_info.Rows[index];
+
+                Tex_Student_id.Text = row.Cells[0].Value?.ToString() ?? "";
+                Tex_name.Text = row.Cells[1].Value?.ToString() ?? "";
+
+                if (row.Cells[2].Value != null && row.Cells[2].Value != DBNull.Value)
+                    dtp_Student.Value = Convert.ToDateTime(row.Cells[2].Value);
+
+                Tex_email.Text = row.Cells[3].Value?.ToString() ?? "";
+                tex_programID.Text = row.Cells[4].Value?.ToString() ?? "";
+
+                // للـ ComboBox
+                string lecturerId = row.Cells[5].Value?.ToString() ?? "";
+                if (!string.IsNullOrEmpty(lecturerId))
+                {
+                    foreach (string item in cb_lecturer_id.Items)
+                    {
+                        if (item.StartsWith(lecturerId + " - "))
+                        {
+                            cb_lecturer_id.Text = item;
+                            break;
+                        }
+                    }
+                }
+
+                // تحميل الصورة بحجم الـ PictureBox
+                if (row.Cells[6].Value != null && row.Cells[6].Value != DBNull.Value)
+                {
+                    byte[] imageData = (byte[])row.Cells[6].Value;
+                    Pb_yourPic.Image = ByteArrayToImage(imageData);
+                }
+                else
+                {
+                    Pb_yourPic.Image = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading student data: " + ex.Message);
+            }
         }
     }
 }

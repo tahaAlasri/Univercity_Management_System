@@ -156,5 +156,26 @@ namespace Univercity_Management_System
             cu.Show();
             this.Hide();
         }
+
+        private void dgv_user_info_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+
+            try
+            {
+                var index = e.RowIndex;
+                DataGridViewRow row = dgv_user_info.Rows[index];
+
+                Tex_userid.Text = row.Cells[0].Value?.ToString() ?? "";
+                Tex_username.Text = row.Cells[1].Value?.ToString() ?? "";
+                Tex_pass.Text = row.Cells[2].Value?.ToString() ?? "";
+                Tex_role.Text = row.Cells[3].Value?.ToString() ?? "";
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading student data: " + ex.Message);
+            }
+        }
     }
 }

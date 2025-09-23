@@ -179,5 +179,26 @@ namespace Univercity_Management_System
                 tex_Dep_id.Text = row.Cells["DepartmentID"].Value.ToString();
             }
         }
+
+        private void dgv_Lecturer_info_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+
+            try
+            {
+                var index = e.RowIndex;
+                DataGridViewRow row = dgv_Lecturer_info.Rows[index];
+
+                Tex_Lecturerid.Text = row.Cells[0].Value?.ToString() ?? "";
+                Tex_name.Text = row.Cells[1].Value?.ToString() ?? "";
+                Tex_rank.Text = row.Cells[2].Value?.ToString() ?? "";
+                tex_Dep_id.Text = row.Cells[3].Value?.ToString() ?? "";
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading student data: " + ex.Message);
+            }
+        }
     }
 }

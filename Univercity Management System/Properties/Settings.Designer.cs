@@ -26,9 +26,9 @@ namespace Univercity_Management_System.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\HAMATI\\source\\repos" +
-            "\\Univercity_Management_System\\Univercity Management System\\Univercity_CRUD.mdf\";" +
-            "Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Admin\\source\\repos\\" +
+            "Univercity_Management_System\\Univercity Management System\\Univercity_CRUD.mdf\";I" +
+            "ntegrated Security=True")]
         public string Univercity_CRUD {
             get {
                 return ((string)(this["Univercity_CRUD"]));

@@ -149,5 +149,13 @@ namespace Univercity_Management_System
             cu.Show();
             this.Hide();
         }
+
+        private void dgv_Year_info_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            var index = e.RowIndex;
+            Tex_Year_id.Text = dgv_Year_info.Rows[index].Cells[0].Value.ToString();
+            Tex_Year_label.Text = dgv_Year_info.Rows[index].Cells[1].Value.ToString();
+
+        }
     }
 }

@@ -45,16 +45,16 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             butMin = new Guna.UI2.WinForms.Guna2Button();
             Tex_Semester_name = new Guna.UI2.WinForms.Guna2TextBox();
             But_clear = new Guna.UI2.WinForms.Guna2Button();
@@ -106,6 +106,7 @@
             // Tex_Semester_name
             // 
             Tex_Semester_name.Anchor = AnchorStyles.Left;
+            Tex_Semester_name.BorderRadius = 10;
             Tex_Semester_name.CustomizableEdges = customizableEdges3;
             Tex_Semester_name.DefaultText = "";
             Tex_Semester_name.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -131,6 +132,7 @@
             // 
             But_clear.Anchor = AnchorStyles.Right;
             But_clear.BackColor = Color.FromArgb(242, 238, 229);
+            But_clear.BorderRadius = 10;
             But_clear.CustomizableEdges = customizableEdges5;
             But_clear.DisabledState.BorderColor = Color.DarkGray;
             But_clear.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -139,7 +141,7 @@
             But_clear.FillColor = Color.FromArgb(192, 0, 0);
             But_clear.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_clear.ForeColor = Color.FromArgb(0, 0, 64);
-            But_clear.Location = new Point(1145, 376);
+            But_clear.Location = new Point(1107, 241);
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges6;
             But_clear.Size = new Size(165, 56);
@@ -151,12 +153,14 @@
             // Tex_Semester_id
             // 
             Tex_Semester_id.Anchor = AnchorStyles.Left;
+            Tex_Semester_id.BorderRadius = 10;
             Tex_Semester_id.CustomizableEdges = customizableEdges7;
             Tex_Semester_id.DefaultText = "";
             Tex_Semester_id.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             Tex_Semester_id.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             Tex_Semester_id.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Tex_Semester_id.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            Tex_Semester_id.Enabled = false;
             Tex_Semester_id.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Tex_Semester_id.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Tex_Semester_id.ForeColor = Color.FromArgb(0, 0, 64);
@@ -176,6 +180,7 @@
             // 
             But_delete.Anchor = AnchorStyles.Right;
             But_delete.BackColor = Color.FromArgb(242, 238, 229);
+            But_delete.BorderRadius = 10;
             But_delete.CustomizableEdges = customizableEdges9;
             But_delete.DisabledState.BorderColor = Color.DarkGray;
             But_delete.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -184,7 +189,7 @@
             But_delete.FillColor = Color.FromArgb(192, 0, 0);
             But_delete.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_delete.ForeColor = Color.FromArgb(0, 0, 64);
-            But_delete.Location = new Point(849, 376);
+            But_delete.Location = new Point(811, 241);
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges10;
             But_delete.Size = new Size(165, 56);
@@ -209,7 +214,8 @@
             // But_update
             // 
             But_update.Anchor = AnchorStyles.Right;
-            But_update.BackColor = Color.Green;
+            But_update.BackColor = Color.FromArgb(241, 237, 228);
+            But_update.BorderRadius = 10;
             But_update.CustomizableEdges = customizableEdges11;
             But_update.DisabledState.BorderColor = Color.DarkGray;
             But_update.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -218,7 +224,7 @@
             But_update.FillColor = Color.Green;
             But_update.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_update.ForeColor = Color.FromArgb(0, 0, 64);
-            But_update.Location = new Point(1145, 189);
+            But_update.Location = new Point(1107, 96);
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges12;
             But_update.Size = new Size(165, 56);
@@ -230,7 +236,8 @@
             // But_add
             // 
             But_add.Anchor = AnchorStyles.Right;
-            But_add.BackColor = Color.Green;
+            But_add.BackColor = Color.FromArgb(241, 237, 228);
+            But_add.BorderRadius = 10;
             But_add.CustomizableEdges = customizableEdges13;
             But_add.DisabledState.BorderColor = Color.DarkGray;
             But_add.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -239,7 +246,7 @@
             But_add.FillColor = Color.Green;
             But_add.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_add.ForeColor = Color.FromArgb(0, 0, 64);
-            But_add.Location = new Point(849, 189);
+            But_add.Location = new Point(811, 96);
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges14;
             But_add.Size = new Size(165, 56);
@@ -300,6 +307,7 @@
             // guna2GroupBox1
             // 
             guna2GroupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            guna2GroupBox1.Controls.Add(guna2Button2);
             guna2GroupBox1.Controls.Add(chk_IsActive);
             guna2GroupBox1.Controls.Add(dtp_EndDate);
             guna2GroupBox1.Controls.Add(dtp_StartDate);
@@ -316,13 +324,13 @@
             guna2GroupBox1.Controls.Add(guna2HtmlLabel3);
             guna2GroupBox1.Controls.Add(guna2HtmlLabel2);
             guna2GroupBox1.CustomBorderColor = Color.FromArgb(0, 0, 64);
-            guna2GroupBox1.CustomizableEdges = customizableEdges23;
+            guna2GroupBox1.CustomizableEdges = customizableEdges25;
             guna2GroupBox1.FillColor = Color.FromArgb(241, 237, 228);
             guna2GroupBox1.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2GroupBox1.ForeColor = Color.White;
             guna2GroupBox1.Location = new Point(-2, 98);
             guna2GroupBox1.Name = "guna2GroupBox1";
-            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2GroupBox1.Size = new Size(1326, 525);
             guna2GroupBox1.TabIndex = 12;
             guna2GroupBox1.Text = "Semester information";
@@ -337,7 +345,7 @@
             chk_IsActive.CheckedState.BorderThickness = 0;
             chk_IsActive.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
             chk_IsActive.ForeColor = Color.FromArgb(0, 0, 64);
-            chk_IsActive.Location = new Point(352, 456);
+            chk_IsActive.Location = new Point(362, 457);
             chk_IsActive.Name = "chk_IsActive";
             chk_IsActive.Size = new Size(141, 49);
             chk_IsActive.TabIndex = 17;
@@ -352,17 +360,18 @@
             // dtp_EndDate
             // 
             dtp_EndDate.Anchor = AnchorStyles.Left;
+            dtp_EndDate.BorderRadius = 10;
             dtp_EndDate.Checked = true;
-            dtp_EndDate.CustomizableEdges = customizableEdges17;
+            dtp_EndDate.CustomizableEdges = customizableEdges19;
             dtp_EndDate.FillColor = Color.FromArgb(241, 237, 228);
             dtp_EndDate.Font = new Font("Segoe UI", 9F);
             dtp_EndDate.ForeColor = Color.FromArgb(0, 0, 64);
             dtp_EndDate.Format = DateTimePickerFormat.Long;
-            dtp_EndDate.Location = new Point(352, 364);
+            dtp_EndDate.Location = new Point(352, 374);
             dtp_EndDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtp_EndDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtp_EndDate.Name = "dtp_EndDate";
-            dtp_EndDate.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            dtp_EndDate.ShadowDecoration.CustomizableEdges = customizableEdges20;
             dtp_EndDate.Size = new Size(356, 47);
             dtp_EndDate.TabIndex = 16;
             dtp_EndDate.TextAlign = HorizontalAlignment.Center;
@@ -372,8 +381,9 @@
             // dtp_StartDate
             // 
             dtp_StartDate.Anchor = AnchorStyles.Left;
+            dtp_StartDate.BorderRadius = 10;
             dtp_StartDate.Checked = true;
-            dtp_StartDate.CustomizableEdges = customizableEdges19;
+            dtp_StartDate.CustomizableEdges = customizableEdges21;
             dtp_StartDate.FillColor = Color.FromArgb(241, 237, 228);
             dtp_StartDate.Font = new Font("Segoe UI", 9F);
             dtp_StartDate.ForeColor = Color.FromArgb(0, 0, 64);
@@ -382,7 +392,7 @@
             dtp_StartDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtp_StartDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtp_StartDate.Name = "dtp_StartDate";
-            dtp_StartDate.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            dtp_StartDate.ShadowDecoration.CustomizableEdges = customizableEdges22;
             dtp_StartDate.Size = new Size(356, 45);
             dtp_StartDate.TabIndex = 15;
             dtp_StartDate.TextAlign = HorizontalAlignment.Center;
@@ -393,17 +403,18 @@
             // 
             cmb_Year.Anchor = AnchorStyles.Left;
             cmb_Year.BackColor = Color.Transparent;
-            cmb_Year.CustomizableEdges = customizableEdges21;
+            cmb_Year.BorderRadius = 10;
+            cmb_Year.CustomizableEdges = customizableEdges23;
             cmb_Year.DrawMode = DrawMode.OwnerDrawFixed;
             cmb_Year.DropDownStyle = ComboBoxStyle.DropDownList;
             cmb_Year.FocusedColor = Color.FromArgb(94, 148, 255);
             cmb_Year.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            cmb_Year.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
+            cmb_Year.Font = new Font("Dubai", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cmb_Year.ForeColor = Color.FromArgb(68, 88, 112);
             cmb_Year.ItemHeight = 30;
             cmb_Year.Location = new Point(352, 241);
             cmb_Year.Name = "cmb_Year";
-            cmb_Year.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            cmb_Year.ShadowDecoration.CustomizableEdges = customizableEdges24;
             cmb_Year.Size = new Size(356, 36);
             cmb_Year.TabIndex = 14;
             cmb_Year.TextAlign = HorizontalAlignment.Center;
@@ -439,7 +450,8 @@
             // 
             guna2Button2.Anchor = AnchorStyles.Right;
             guna2Button2.BackColor = Color.FromArgb(242, 238, 229);
-            guna2Button2.CustomizableEdges = customizableEdges25;
+            guna2Button2.BorderRadius = 10;
+            guna2Button2.CustomizableEdges = customizableEdges17;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -447,9 +459,9 @@
             guna2Button2.FillColor = Color.FromArgb(192, 0, 0);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2Button2.Location = new Point(847, 651);
+            guna2Button2.Location = new Point(811, 396);
             guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Button2.Size = new Size(461, 56);
             guna2Button2.TabIndex = 18;
             guna2Button2.Text = "Back <ـــــــــ";
@@ -483,6 +495,7 @@
             dgv_Semester_info.CellClick += dgv_Semester_info_CellClick;
             dgv_Semester_info.CellFormatting += dgv_Semester_info_CellFormatting;
             dgv_Semester_info.DataError += dgv_Semester_info_DataError;
+            dgv_Semester_info.RowHeaderMouseClick += dgv_Semester_info_RowHeaderMouseClick;
             // 
             // Semester
             // 
@@ -490,7 +503,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(241, 237, 228);
             ClientSize = new Size(1325, 977);
-            Controls.Add(guna2Button2);
             Controls.Add(dgv_Semester_info);
             Controls.Add(butMin);
             Controls.Add(guna2Button1);

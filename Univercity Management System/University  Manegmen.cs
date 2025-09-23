@@ -28,11 +28,10 @@ namespace Univercity_Management_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-
             //string universityID = txtUniversityID.Text;
             string universityName = txtUniversityName.Text.Trim();
             //string.IsNullOrWhiteSpace(universityID) ||
-            if ( string.IsNullOrWhiteSpace(universityName))
+            if (string.IsNullOrWhiteSpace(universityName))
             {
                 MessageBox.Show("Please fill in all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -55,6 +54,7 @@ namespace Univercity_Management_System
                     {
                         MessageBox.Show("University added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ClearFields();
+                        LoadData();
                     }
                     else
                     {
@@ -108,6 +108,7 @@ namespace Univercity_Management_System
                     {
                         MessageBox.Show("University updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ClearFields();
+                        LoadData();
                     }
                     else
                     {
@@ -199,7 +200,7 @@ namespace Univercity_Management_System
         {
             if (e.RowIndex >= 0)
             {
-                DataGridViewRow row = dgv_Student_info.Rows[e.RowIndex];
+                DataGridViewRow row = dgv_un_info.Rows[e.RowIndex];
                 txtUniversityID.Text = row.Cells["UniversityID"].Value.ToString();
                 txtUniversityName.Text = row.Cells["UniversityName"].Value.ToString();
             }
@@ -214,11 +215,11 @@ namespace Univercity_Management_System
                 {
                     DataTable dt = new DataTable();
                     adapter.Fill(dt);
-                    dgv_Student_info.DataSource = dt;
+                    dgv_un_info.DataSource = dt;
 
                     // تخصيص الأعمدة (اختياري)
-                    dgv_Student_info.Columns[0].HeaderText = "University ID";
-                    dgv_Student_info.Columns[1].HeaderText = "University Name";
+                    dgv_un_info.Columns[0].HeaderText = "University ID";
+                    dgv_un_info.Columns[1].HeaderText = "University Name";
                 }
             }
             catch (Exception ex)
@@ -227,5 +228,22 @@ namespace Univercity_Management_System
             }
         }
 
+        private void dgv_Student_info_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+
+            try
+            {
+                var index = e.RowIndex;
+                DataGridViewRow row = dgv_un_info.Rows[index];
+
+                txtUniversityID.Text = row.Cells[0].Value?.ToString() ?? "";
+                txtUniversityName.Text = row.Cells[1].Value?.ToString() ?? "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading student data: " + ex.Message);
+            }
+        }
     }
 }

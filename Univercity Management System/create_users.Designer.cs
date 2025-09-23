@@ -124,6 +124,7 @@
             // 
             guna2Button2.Anchor = AnchorStyles.Right;
             guna2Button2.BackColor = Color.FromArgb(242, 238, 229);
+            guna2Button2.BorderRadius = 10;
             guna2Button2.CustomizableEdges = customizableEdges1;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -132,7 +133,7 @@
             guna2Button2.FillColor = Color.FromArgb(192, 0, 0);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2Button2.Location = new Point(647, 434);
+            guna2Button2.Location = new Point(690, 426);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Button2.Size = new Size(415, 56);
@@ -144,7 +145,8 @@
             // btnLoginHistory
             // 
             btnLoginHistory.Anchor = AnchorStyles.None;
-            btnLoginHistory.BackColor = Color.Green;
+            btnLoginHistory.BackColor = Color.FromArgb(241, 237, 228);
+            btnLoginHistory.BorderRadius = 10;
             btnLoginHistory.CustomizableEdges = customizableEdges3;
             btnLoginHistory.DisabledState.BorderColor = Color.DarkGray;
             btnLoginHistory.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -153,10 +155,10 @@
             btnLoginHistory.FillColor = Color.FromArgb(0, 0, 64);
             btnLoginHistory.Font = new Font("Dubai", 18F, FontStyle.Bold);
             btnLoginHistory.ForeColor = Color.White;
-            btnLoginHistory.Location = new Point(103, 434);
+            btnLoginHistory.Location = new Point(690, 330);
             btnLoginHistory.Name = "btnLoginHistory";
             btnLoginHistory.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnLoginHistory.Size = new Size(335, 58);
+            btnLoginHistory.Size = new Size(415, 58);
             btnLoginHistory.TabIndex = 8;
             btnLoginHistory.Text = "View Login History";
             btnLoginHistory.UseWaitCursor = true;
@@ -165,6 +167,7 @@
             // Tex_role
             // 
             Tex_role.Anchor = AnchorStyles.Left;
+            Tex_role.BorderRadius = 10;
             Tex_role.CustomizableEdges = customizableEdges5;
             Tex_role.DefaultText = "";
             Tex_role.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -189,6 +192,7 @@
             // Tex_pass
             // 
             Tex_pass.Anchor = AnchorStyles.Left;
+            Tex_pass.BorderRadius = 10;
             Tex_pass.CustomizableEdges = customizableEdges7;
             Tex_pass.DefaultText = "";
             Tex_pass.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -214,6 +218,7 @@
             // Tex_username
             // 
             Tex_username.Anchor = AnchorStyles.Left;
+            Tex_username.BorderRadius = 10;
             Tex_username.CustomizableEdges = customizableEdges9;
             Tex_username.DefaultText = "";
             Tex_username.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -239,6 +244,7 @@
             // 
             But_clear.Anchor = AnchorStyles.Right;
             But_clear.BackColor = Color.FromArgb(242, 238, 229);
+            But_clear.BorderRadius = 10;
             But_clear.CustomizableEdges = customizableEdges11;
             But_clear.DisabledState.BorderColor = Color.DarkGray;
             But_clear.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -247,7 +253,7 @@
             But_clear.FillColor = Color.FromArgb(192, 0, 0);
             But_clear.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_clear.ForeColor = Color.FromArgb(0, 0, 64);
-            But_clear.Location = new Point(829, 359);
+            But_clear.Location = new Point(940, 192);
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges12;
             But_clear.Size = new Size(165, 56);
@@ -259,12 +265,14 @@
             // Tex_userid
             // 
             Tex_userid.Anchor = AnchorStyles.Left;
+            Tex_userid.BorderRadius = 10;
             Tex_userid.CustomizableEdges = customizableEdges13;
             Tex_userid.DefaultText = "";
             Tex_userid.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             Tex_userid.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             Tex_userid.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Tex_userid.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            Tex_userid.Enabled = false;
             Tex_userid.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Tex_userid.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Tex_userid.ForeColor = Color.FromArgb(0, 0, 64);
@@ -284,6 +292,7 @@
             // 
             But_delete.Anchor = AnchorStyles.Right;
             But_delete.BackColor = Color.FromArgb(242, 238, 229);
+            But_delete.BorderRadius = 10;
             But_delete.CustomizableEdges = customizableEdges15;
             But_delete.DisabledState.BorderColor = Color.DarkGray;
             But_delete.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -292,7 +301,7 @@
             But_delete.FillColor = Color.FromArgb(192, 0, 0);
             But_delete.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_delete.ForeColor = Color.FromArgb(0, 0, 64);
-            But_delete.Location = new Point(829, 275);
+            But_delete.Location = new Point(690, 192);
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges16;
             But_delete.Size = new Size(165, 56);
@@ -317,7 +326,8 @@
             // But_update
             // 
             But_update.Anchor = AnchorStyles.Right;
-            But_update.BackColor = Color.Green;
+            But_update.BackColor = Color.FromArgb(241, 237, 228);
+            But_update.BorderRadius = 10;
             But_update.CustomizableEdges = customizableEdges17;
             But_update.DisabledState.BorderColor = Color.DarkGray;
             But_update.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -326,7 +336,7 @@
             But_update.FillColor = Color.Green;
             But_update.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_update.ForeColor = Color.FromArgb(0, 0, 64);
-            But_update.Location = new Point(829, 172);
+            But_update.Location = new Point(940, 88);
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges18;
             But_update.Size = new Size(165, 56);
@@ -351,7 +361,8 @@
             // But_add
             // 
             But_add.Anchor = AnchorStyles.Right;
-            But_add.BackColor = Color.Green;
+            But_add.BackColor = Color.FromArgb(241, 237, 228);
+            But_add.BorderRadius = 10;
             But_add.CustomizableEdges = customizableEdges19;
             But_add.DisabledState.BorderColor = Color.DarkGray;
             But_add.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -360,7 +371,7 @@
             But_add.FillColor = Color.Green;
             But_add.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_add.ForeColor = Color.FromArgb(0, 0, 64);
-            But_add.Location = new Point(829, 76);
+            But_add.Location = new Point(690, 88);
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges20;
             But_add.Size = new Size(165, 56);
@@ -452,6 +463,7 @@
             dgv_user_info.Size = new Size(1135, 188);
             dgv_user_info.TabIndex = 10;
             dgv_user_info.UseWaitCursor = true;
+            dgv_user_info.RowHeaderMouseClick += dgv_user_info_RowHeaderMouseClick;
             // 
             // create_users
             // 

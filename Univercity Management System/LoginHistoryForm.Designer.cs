@@ -41,6 +41,7 @@
             butMin = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)dgvLoginHistory).BeginInit();
             SuspendLayout();
             // 
@@ -147,6 +148,7 @@
             // 
             guna2Button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             guna2Button2.BackColor = Color.FromArgb(242, 238, 229);
+            guna2Button2.BorderRadius = 10;
             guna2Button2.CustomizableEdges = customizableEdges5;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -164,12 +166,26 @@
             guna2Button2.UseWaitCursor = true;
             guna2Button2.Click += guna2Button2_Click;
             // 
+            // guna2HtmlLabel1
+            // 
+            guna2HtmlLabel1.Anchor = AnchorStyles.Top;
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.Font = new Font("Dubai", 19F, FontStyle.Bold);
+            guna2HtmlLabel1.ForeColor = Color.FromArgb(0, 0, 64);
+            guna2HtmlLabel1.Location = new Point(275, 23);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(187, 56);
+            guna2HtmlLabel1.TabIndex = 20;
+            guna2HtmlLabel1.Text = "Login History";
+            guna2HtmlLabel1.UseWaitCursor = true;
+            // 
             // LoginHistoryForm
             // 
             AutoScaleDimensions = new SizeF(17F, 51F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(241, 237, 228);
             ClientSize = new Size(823, 553);
+            Controls.Add(guna2HtmlLabel1);
             Controls.Add(guna2Button2);
             Controls.Add(butMin);
             Controls.Add(guna2Button1);
@@ -183,6 +199,7 @@
             Load += LoginHistoryForm_Load;
             ((System.ComponentModel.ISupportInitialize)dgvLoginHistory).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -191,5 +208,6 @@
         private Guna.UI2.WinForms.Guna2Button butMin;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }
