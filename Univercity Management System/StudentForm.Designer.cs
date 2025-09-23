@@ -56,6 +56,14 @@ namespace Univercity_Management_System
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             but_print = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             but_back = new Guna.UI2.WinForms.Guna2Button();
@@ -84,10 +92,20 @@ namespace Univercity_Management_System
             guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             dtp_Student = new Guna.UI2.WinForms.Guna2DateTimePicker();
             guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            Label_email = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            Label_id = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            Label_name = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            pb_yourCardPic = new Guna.UI2.WinForms.Guna2PictureBox();
             openFileDialog1 = new OpenFileDialog();
+            but_card = new Guna.UI2.WinForms.Guna2Button();
+            Back = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)dgv_Student_info).BeginInit();
             guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Pb_yourPic).BeginInit();
+            guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pb_yourCardPic).BeginInit();
             SuspendLayout();
             // 
             // but_print
@@ -104,7 +122,7 @@ namespace Univercity_Management_System
             but_print.FocusedColor = Color.White;
             but_print.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_print.ForeColor = Color.White;
-            but_print.Location = new Point(716, 564);
+            but_print.Location = new Point(678, 457);
             but_print.Name = "but_print";
             but_print.ShadowDecoration.CustomizableEdges = customizableEdges2;
             but_print.Size = new Size(378, 56);
@@ -139,7 +157,7 @@ namespace Univercity_Management_System
             but_back.FillColor = Color.FromArgb(192, 0, 0);
             but_back.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_back.ForeColor = Color.FromArgb(0, 0, 64);
-            but_back.Location = new Point(716, 470);
+            but_back.Location = new Point(678, 552);
             but_back.Name = "but_back";
             but_back.ShadowDecoration.CustomizableEdges = customizableEdges4;
             but_back.Size = new Size(378, 56);
@@ -211,7 +229,7 @@ namespace Univercity_Management_System
             But_clear.FillColor = Color.FromArgb(192, 0, 0);
             But_clear.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_clear.ForeColor = Color.FromArgb(0, 0, 64);
-            But_clear.Location = new Point(929, 369);
+            But_clear.Location = new Point(891, 369);
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges10;
             But_clear.Size = new Size(165, 56);
@@ -260,7 +278,7 @@ namespace Univercity_Management_System
             But_delete.FillColor = Color.FromArgb(192, 0, 0);
             But_delete.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_delete.ForeColor = Color.FromArgb(0, 0, 64);
-            But_delete.Location = new Point(716, 369);
+            But_delete.Location = new Point(678, 369);
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges14;
             But_delete.Size = new Size(165, 56);
@@ -296,7 +314,7 @@ namespace Univercity_Management_System
             But_update.FillColor = Color.Green;
             But_update.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_update.ForeColor = Color.FromArgb(0, 0, 64);
-            But_update.Location = new Point(929, 273);
+            But_update.Location = new Point(891, 273);
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges16;
             But_update.Size = new Size(165, 56);
@@ -319,7 +337,7 @@ namespace Univercity_Management_System
             But_add.FillColor = Color.Green;
             But_add.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_add.ForeColor = Color.FromArgb(0, 0, 64);
-            But_add.Location = new Point(716, 273);
+            But_add.Location = new Point(678, 273);
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges18;
             But_add.Size = new Size(165, 56);
@@ -409,7 +427,7 @@ namespace Univercity_Management_System
             dgv_Student_info.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgv_Student_info.BackgroundColor = Color.FromArgb(241, 237, 228);
             dgv_Student_info.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_Student_info.Location = new Point(1, 750);
+            dgv_Student_info.Location = new Point(1, 842);
             dgv_Student_info.Name = "dgv_Student_info";
             dgv_Student_info.RowHeadersWidth = 51;
             dgv_Student_info.Size = new Size(1131, 188);
@@ -451,9 +469,9 @@ namespace Univercity_Management_System
             guna2GroupBox1.Controls.Add(guna2HtmlLabel8);
             guna2GroupBox1.Controls.Add(dtp_Student);
             guna2GroupBox1.Controls.Add(guna2HtmlLabel7);
+            guna2GroupBox1.Controls.Add(but_back);
             guna2GroupBox1.Controls.Add(but_print);
             guna2GroupBox1.Controls.Add(guna2HtmlLabel4);
-            guna2GroupBox1.Controls.Add(but_back);
             guna2GroupBox1.Controls.Add(Tex_email);
             guna2GroupBox1.Controls.Add(Tex_name);
             guna2GroupBox1.Controls.Add(But_clear);
@@ -469,10 +487,10 @@ namespace Univercity_Management_System
             guna2GroupBox1.FillColor = Color.FromArgb(241, 237, 228);
             guna2GroupBox1.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2GroupBox1.ForeColor = Color.White;
-            guna2GroupBox1.Location = new Point(1, 84);
+            guna2GroupBox1.Location = new Point(12, 135);
             guna2GroupBox1.Name = "guna2GroupBox1";
             guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            guna2GroupBox1.Size = new Size(1131, 660);
+            guna2GroupBox1.Size = new Size(1093, 660);
             guna2GroupBox1.TabIndex = 17;
             guna2GroupBox1.Text = "Student information";
             guna2GroupBox1.UseWaitCursor = true;
@@ -512,7 +530,7 @@ namespace Univercity_Management_System
             guna2Button2.FillColor = Color.FromArgb(0, 0, 64);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(716, 187);
+            guna2Button2.Location = new Point(678, 187);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2Button2.Size = new Size(146, 49);
@@ -528,7 +546,7 @@ namespace Univercity_Management_System
             Pb_yourPic.BorderStyle = BorderStyle.FixedSingle;
             Pb_yourPic.CustomizableEdges = customizableEdges27;
             Pb_yourPic.ImageRotate = 0F;
-            Pb_yourPic.Location = new Point(888, 65);
+            Pb_yourPic.Location = new Point(850, 65);
             Pb_yourPic.Name = "Pb_yourPic";
             Pb_yourPic.ShadowDecoration.CustomizableEdges = customizableEdges28;
             Pb_yourPic.Size = new Size(206, 173);
@@ -609,14 +627,149 @@ namespace Univercity_Management_System
             guna2HtmlLabel7.Text = "DOB:";
             guna2HtmlLabel7.UseWaitCursor = true;
             // 
+            // guna2Panel1
+            // 
+            guna2Panel1.Anchor = AnchorStyles.None;
+            guna2Panel1.BackColor = Color.FromArgb(0, 0, 64);
+            guna2Panel1.BorderRadius = 20;
+            guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            guna2Panel1.Controls.Add(Label_email);
+            guna2Panel1.Controls.Add(Label_id);
+            guna2Panel1.Controls.Add(Label_name);
+            guna2Panel1.Controls.Add(guna2HtmlLabel6);
+            guna2Panel1.Controls.Add(pb_yourCardPic);
+            guna2Panel1.CustomizableEdges = customizableEdges37;
+            guna2Panel1.Location = new Point(321, 83);
+            guna2Panel1.Name = "guna2Panel1";
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            guna2Panel1.Size = new Size(448, 712);
+            guna2Panel1.TabIndex = 34;
+            guna2Panel1.UseWaitCursor = true;
+            // 
+            // Label_email
+            // 
+            Label_email.BackColor = Color.Transparent;
+            Label_email.Font = new Font("Dubai", 15F, FontStyle.Bold);
+            Label_email.ForeColor = Color.White;
+            Label_email.Location = new Point(159, 631);
+            Label_email.Name = "Label_email";
+            Label_email.Size = new Size(3, 2);
+            Label_email.TabIndex = 38;
+            Label_email.Text = null;
+            Label_email.TextAlignment = ContentAlignment.TopCenter;
+            Label_email.UseWaitCursor = true;
+            // 
+            // Label_id
+            // 
+            Label_id.BackColor = Color.Transparent;
+            Label_id.Font = new Font("Dubai", 15F, FontStyle.Bold);
+            Label_id.ForeColor = Color.White;
+            Label_id.Location = new Point(159, 528);
+            Label_id.Name = "Label_id";
+            Label_id.Size = new Size(3, 2);
+            Label_id.TabIndex = 37;
+            Label_id.Text = null;
+            Label_id.TextAlignment = ContentAlignment.TopCenter;
+            Label_id.UseWaitCursor = true;
+            // 
+            // Label_name
+            // 
+            Label_name.BackColor = Color.Transparent;
+            Label_name.Font = new Font("Dubai", 15F, FontStyle.Bold);
+            Label_name.ForeColor = Color.White;
+            Label_name.Location = new Point(159, 425);
+            Label_name.Name = "Label_name";
+            Label_name.Size = new Size(3, 2);
+            Label_name.TabIndex = 36;
+            Label_name.Text = null;
+            Label_name.TextAlignment = ContentAlignment.TopCenter;
+            Label_name.UseWaitCursor = true;
+            // 
+            // guna2HtmlLabel6
+            // 
+            guna2HtmlLabel6.BackColor = Color.Transparent;
+            guna2HtmlLabel6.Font = new Font("Dubai", 18F, FontStyle.Bold);
+            guna2HtmlLabel6.ForeColor = Color.White;
+            guna2HtmlLabel6.Location = new Point(123, 20);
+            guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            guna2HtmlLabel6.Size = new Size(161, 53);
+            guna2HtmlLabel6.TabIndex = 35;
+            guna2HtmlLabel6.Text = "Sudent Card";
+            guna2HtmlLabel6.UseWaitCursor = true;
+            // 
+            // pb_yourCardPic
+            // 
+            pb_yourCardPic.Anchor = AnchorStyles.Right;
+            pb_yourCardPic.BorderRadius = 10;
+            pb_yourCardPic.CustomizableEdges = customizableEdges35;
+            pb_yourCardPic.ImageRotate = 0F;
+            pb_yourCardPic.Location = new Point(78, 79);
+            pb_yourCardPic.Name = "pb_yourCardPic";
+            pb_yourCardPic.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            pb_yourCardPic.Size = new Size(285, 275);
+            pb_yourCardPic.SizeMode = PictureBoxSizeMode.Zoom;
+            pb_yourCardPic.TabIndex = 34;
+            pb_yourCardPic.TabStop = false;
+            pb_yourCardPic.UseWaitCursor = true;
+            pb_yourCardPic.Click += pb_yourCardPic_Click;
+            // 
             // openFileDialog1
             // 
             openFileDialog1.FileName = "openFileDialog1";
             // 
+            // but_card
+            // 
+            but_card.Anchor = AnchorStyles.Right;
+            but_card.BackColor = Color.FromArgb(242, 238, 229);
+            but_card.BorderRadius = 10;
+            but_card.CustomizableEdges = customizableEdges39;
+            but_card.DisabledState.BorderColor = Color.DarkGray;
+            but_card.DisabledState.CustomBorderColor = Color.DarkGray;
+            but_card.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            but_card.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            but_card.FillColor = Color.FromArgb(0, 0, 64);
+            but_card.FocusedColor = Color.White;
+            but_card.Font = new Font("Dubai", 18F, FontStyle.Bold);
+            but_card.ForeColor = Color.White;
+            but_card.Location = new Point(973, 780);
+            but_card.Name = "but_card";
+            but_card.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            but_card.Size = new Size(144, 56);
+            but_card.TabIndex = 33;
+            but_card.Text = "Card";
+            but_card.UseWaitCursor = true;
+            but_card.Click += but_card_Click;
+            // 
+            // Back
+            // 
+            Back.Anchor = AnchorStyles.Right;
+            Back.BackColor = Color.FromArgb(242, 238, 229);
+            Back.BorderRadius = 10;
+            Back.CustomizableEdges = customizableEdges41;
+            Back.DisabledState.BorderColor = Color.DarkGray;
+            Back.DisabledState.CustomBorderColor = Color.DarkGray;
+            Back.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            Back.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            Back.FillColor = Color.FromArgb(0, 0, 64);
+            Back.FocusedColor = Color.White;
+            Back.Font = new Font("Dubai", 18F, FontStyle.Bold);
+            Back.ForeColor = Color.White;
+            Back.Location = new Point(973, 780);
+            Back.Name = "Back";
+            Back.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            Back.Size = new Size(144, 56);
+            Back.TabIndex = 35;
+            Back.Text = "Back";
+            Back.UseWaitCursor = true;
+            Back.Click += Back_Click;
+            // 
             // StudentForm
             // 
             BackColor = Color.FromArgb(241, 237, 228);
-            ClientSize = new Size(1133, 943);
+            ClientSize = new Size(1133, 1035);
+            Controls.Add(Back);
+            Controls.Add(guna2Panel1);
+            Controls.Add(but_card);
             Controls.Add(guna2HtmlLabel1);
             Controls.Add(guna2Button1);
             Controls.Add(dgv_Student_info);
@@ -630,6 +783,9 @@ namespace Univercity_Management_System
             guna2GroupBox1.ResumeLayout(false);
             guna2GroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)Pb_yourPic).EndInit();
+            guna2Panel1.ResumeLayout(false);
+            guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pb_yourCardPic).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -664,5 +820,13 @@ namespace Univercity_Management_System
         private Guna.UI2.WinForms.Guna2PictureBox Pb_yourPic;
         private OpenFileDialog openFileDialog1;
         private Guna.UI2.WinForms.Guna2ComboBox cb_lecturer_id;
+        private Guna.UI2.WinForms.Guna2Button but_card;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel Label_email;
+        private Guna.UI2.WinForms.Guna2HtmlLabel Label_id;
+        private Guna.UI2.WinForms.Guna2HtmlLabel Label_name;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2PictureBox pb_yourCardPic;
+        private Guna.UI2.WinForms.Guna2Button Back;
     }
 }

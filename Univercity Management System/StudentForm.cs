@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -55,6 +56,8 @@ namespace Univercity_Management_System
         {
             try
             {
+                Back.Visible = false;
+                guna2Panel1.Visible = false;
                 DataTable dt = student.GetAllStudents();
                 dgv_Student_info.DataSource = dt;
                 dgv_Student_info.ClearSelection();
@@ -444,6 +447,39 @@ namespace Univercity_Management_System
             {
                 MessageBox.Show("Error loading student data: " + ex.Message);
             }
+        }
+        private void but_card_Click(object sender, EventArgs e)
+        {
+
+            pb_yourCardPic.Image = Pb_yourPic.Image;
+            Label_name.Text = Tex_name.Text;
+            Label_id.Text = Tex_Student_id.Text;
+            Label_email.Text = Tex_email.Text;
+
+            guna2GroupBox1.Visible = false;
+            dgv_Student_info.Visible = false;
+            guna2Panel1.Visible = true;
+            Label_id.Visible = true;
+            Label_name.Visible = true;
+            Label_email.Visible = true;
+            Back.Visible = true;
+            but_card.Visible = false;
+
+        }
+
+        private void pb_yourCardPic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            guna2GroupBox1.Visible = true;
+            dgv_Student_info.Visible = true;
+            guna2Panel1.Visible = false;
+            Back.Visible = false;
+            but_card.Visible = true;
+
         }
     }
 }
