@@ -35,11 +35,9 @@ namespace Univercity_Management_System
         {
             if (ValidateInput())
             {
-                lecturer.LecturerID = Tex_Lecturerid.Text;
                 lecturer.Name = Tex_name.Text;
                 lecturer.Rank = Tex_rank.Text;
                 lecturer.DepartmentID = tex_Dep_id.Text;
-                lecturer.UserID = tex_user_id.Text;
 
                 if (lecturer.AddLecturer())
                 {
@@ -58,7 +56,6 @@ namespace Univercity_Management_System
                 lecturer.Name = Tex_name.Text;
                 lecturer.Rank = Tex_rank.Text;
                 lecturer.DepartmentID = tex_Dep_id.Text;
-                lecturer.UserID = tex_user_id.Text;
 
                 if (lecturer.UpdateLecturer())
                 {
@@ -75,17 +72,10 @@ namespace Univercity_Management_System
             Tex_name.Text = "";
             Tex_rank.Text = "";
             tex_Dep_id.Text = "";
-            tex_user_id.Text = "";
         }
 
         private bool ValidateInput()
         {
-            if (string.IsNullOrEmpty(Tex_Lecturerid.Text))
-            {
-                MessageBox.Show("Please enter a Lecturer ID.");
-                return false;
-            }
-
             if (string.IsNullOrEmpty(Tex_name.Text))
             {
                 MessageBox.Show("Please enter a Name.");
@@ -101,12 +91,6 @@ namespace Univercity_Management_System
             if (string.IsNullOrEmpty(tex_Dep_id.Text))
             {
                 MessageBox.Show("Please enter a Department ID.");
-                return false;
-            }
-
-            if (string.IsNullOrEmpty(tex_user_id.Text))
-            {
-                MessageBox.Show("Please enter a User ID.");
                 return false;
             }
 
@@ -193,7 +177,6 @@ namespace Univercity_Management_System
                 Tex_name.Text = row.Cells["Name"].Value.ToString();
                 Tex_rank.Text = row.Cells["Rank"].Value.ToString();
                 tex_Dep_id.Text = row.Cells["DepartmentID"].Value.ToString();
-                tex_user_id.Text = row.Cells["UserID"].Value.ToString();
             }
         }
     }

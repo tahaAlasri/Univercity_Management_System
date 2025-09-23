@@ -55,14 +55,11 @@ namespace Univercity_Management_System
             this.Hide();
         }
 
-        private void DashboardForm_Load(object sender, EventArgs e)
+        private void butStudent_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            StudentForm student = new StudentForm();
+            student.Show();
+            this.Hide();
         }
     }
 }

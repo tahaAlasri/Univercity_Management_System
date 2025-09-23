@@ -14,20 +14,17 @@ namespace Univercity_Management_System
         public string Name { get; set; }
         public string Rank { get; set; }
         public string DepartmentID { get; set; }
-        public string UserID { get; set; }
 
         // Database connection string
         private string connectionString = Properties.Settings.Default.Univercity_CRUD;
 
         public Lecturer() { }
 
-        public Lecturer(string lecturerID, string name, string rank, string departmentID, string userID)
+        public Lecturer( string name, string rank, string department_id)
         {
-            LecturerID = lecturerID;
             Name = name;
             Rank = rank;
-            DepartmentID = departmentID;
-            UserID = userID;
+            DepartmentID = department_id;
         }
 
         // Add a new lecturer to the database
@@ -38,15 +35,13 @@ namespace Univercity_Management_System
                 try
                 {
                     conn.Open();
-                    string query = @"INSERT INTO Lecturer (LecturerID, Name, Rank, DepartmentID, UserID) 
-                                     VALUES (@LecturerID, @Name, @Rank, @DepartmentID, @UserID)";
+                    string query = @"INSERT INTO Lecturer ( name, rank, department_id) 
+                                     VALUES (@Name, @Rank, @DepartmentID)";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@LecturerID", LecturerID);
                     cmd.Parameters.AddWithValue("@Name", Name);
                     cmd.Parameters.AddWithValue("@Rank", Rank);
                     cmd.Parameters.AddWithValue("@DepartmentID", DepartmentID);
-                    cmd.Parameters.AddWithValue("@UserID", UserID);
 
                     int result = cmd.ExecuteNonQuery();
                     return result > 0;
@@ -67,16 +62,15 @@ namespace Univercity_Management_System
                 try
                 {
                     conn.Open();
-                    string query = @"UPDATE Lecturer SET Name = @Name, Rank = @Rank, 
-                                     DepartmentID = @DepartmentID, UserID = @UserID 
-                                     WHERE LecturerID = @LecturerID";
+                    string query = @"UPDATE Lecturer SET name = @Name, rank = @Rank, 
+                                     department_id = @DepartmentID
+                                     WHERE lecturer_id = @LecturerID";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@LecturerID", LecturerID);
                     cmd.Parameters.AddWithValue("@Name", Name);
                     cmd.Parameters.AddWithValue("@Rank", Rank);
                     cmd.Parameters.AddWithValue("@DepartmentID", DepartmentID);
-                    cmd.Parameters.AddWithValue("@UserID", UserID);
 
                     int result = cmd.ExecuteNonQuery();
                     return result > 0;
@@ -97,7 +91,7 @@ namespace Univercity_Management_System
                 try
                 {
                     conn.Open();
-                    string query = "DELETE FROM Lecturer WHERE LecturerID = @LecturerID";
+                    string query = "DELETE FROM Lecturer WHERE lecturer_id = @LecturerID";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@LecturerID", LecturerID);
@@ -156,11 +150,9 @@ namespace Univercity_Management_System
                     if (reader.Read())
                     {
                         lecturer = new Lecturer(
-                            reader["LecturerID"].ToString(),
                             reader["Name"].ToString(),
                             reader["Rank"].ToString(),
-                            reader["DepartmentID"].ToString(),
-                            reader["UserID"].ToString()
+                            reader["DepartmentID"].ToString()
                         );
                     }
 

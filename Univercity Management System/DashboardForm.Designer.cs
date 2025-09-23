@@ -35,8 +35,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             butUsers = new Button();
@@ -52,8 +53,10 @@
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             guna2Panel2.SuspendLayout();
             guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
             SuspendLayout();
             // 
             // guna2HtmlLabel1
@@ -62,7 +65,7 @@
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2HtmlLabel1.ForeColor = Color.White;
-            guna2HtmlLabel1.Location = new Point(627, 40);
+            guna2HtmlLabel1.Location = new Point(339, 26);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             guna2HtmlLabel1.Size = new Size(540, 53);
             guna2HtmlLabel1.TabIndex = 0;
@@ -83,10 +86,10 @@
             guna2Panel2.Controls.Add(butStudent);
             guna2Panel2.CustomizableEdges = customizableEdges1;
             guna2Panel2.Font = new Font("Dubai", 16F, FontStyle.Bold);
-            guna2Panel2.Location = new Point(-1, 144);
+            guna2Panel2.Location = new Point(-1, 0);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel2.Size = new Size(305, 796);
+            guna2Panel2.Size = new Size(305, 940);
             guna2Panel2.TabIndex = 2;
             // 
             // butUsers
@@ -108,7 +111,7 @@
             button9.BackColor = Color.FromArgb(241, 237, 228);
             button9.Font = new Font("Dubai", 16F, FontStyle.Bold);
             button9.ForeColor = Color.Maroon;
-            button9.Location = new Point(25, 728);
+            button9.Location = new Point(25, 872);
             button9.Name = "button9";
             button9.Size = new Size(238, 47);
             button9.TabIndex = 8;
@@ -202,11 +205,12 @@
             butStudent.Tag = "6";
             butStudent.Text = "Student  Manegment";
             butStudent.UseVisualStyleBackColor = false;
+            butStudent.Click += butStudent_Click;
             // 
             // butMin
             // 
             butMin.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            butMin.BackColor = Color.FromArgb(241, 237, 228);
+            butMin.BackColor = Color.FromArgb(0, 0, 64);
             butMin.BorderColor = Color.FromArgb(241, 237, 228);
             butMin.BorderRadius = 5;
             butMin.CustomizableEdges = customizableEdges3;
@@ -217,7 +221,7 @@
             butMin.FillColor = Color.FromArgb(0, 0, 64);
             butMin.Font = new Font("Dubai", 14.1999989F, FontStyle.Bold);
             butMin.ForeColor = Color.White;
-            butMin.Location = new Point(1382, 12);
+            butMin.Location = new Point(1080, 12);
             butMin.Name = "butMin";
             butMin.ShadowDecoration.CustomizableEdges = customizableEdges4;
             butMin.Size = new Size(42, 42);
@@ -228,7 +232,7 @@
             // guna2Button1
             // 
             guna2Button1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            guna2Button1.BackColor = Color.FromArgb(241, 237, 228);
+            guna2Button1.BackColor = Color.FromArgb(0, 0, 64);
             guna2Button1.BorderColor = Color.FromArgb(241, 237, 228);
             guna2Button1.BorderRadius = 5;
             guna2Button1.CustomizableEdges = customizableEdges5;
@@ -239,7 +243,7 @@
             guna2Button1.FillColor = Color.FromArgb(0, 0, 64);
             guna2Button1.Font = new Font("Dubai", 14.1999989F, FontStyle.Bold);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(1442, 12);
+            guna2Button1.Location = new Point(1140, 12);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button1.Size = new Size(38, 42);
@@ -261,14 +265,27 @@
             guna2Panel1.Controls.Add(butMin);
             guna2Panel1.Controls.Add(guna2HtmlLabel1);
             guna2Panel1.Controls.Add(guna2Button1);
-            guna2Panel1.CustomizableEdges = customizableEdges7;
+            guna2Panel1.CustomizableEdges = customizableEdges8;
             guna2Panel1.Font = new Font("Dubai", 16F, FontStyle.Bold);
-            guna2Panel1.Location = new Point(-1, 0);
+            guna2Panel1.Location = new Point(301, 0);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Panel1.Size = new Size(1505, 146);
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges9;
+            guna2Panel1.Size = new Size(1203, 112);
             guna2Panel1.TabIndex = 10;
-            guna2Panel1.Paint += guna2Panel1_Paint;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            guna2CirclePictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            guna2CirclePictureBox1.Image = Properties.Resources.file_000000007b2061f9814d64ff32a53a30;
+            guna2CirclePictureBox1.ImageRotate = 0F;
+            guna2CirclePictureBox1.Location = new Point(472, 118);
+            guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges7;
+            guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CirclePictureBox1.Size = new Size(904, 819);
+            guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            guna2CirclePictureBox1.TabIndex = 11;
+            guna2CirclePictureBox1.TabStop = false;
             // 
             // DashboardForm
             // 
@@ -276,16 +293,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(241, 237, 228);
             ClientSize = new Size(1506, 941);
+            Controls.Add(guna2CirclePictureBox1);
             Controls.Add(guna2Panel1);
             Controls.Add(guna2Panel2);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "DashboardForm";
             Text = "DashboardForm";
+            TransparencyKey = Color.Transparent;
             WindowState = FormWindowState.Maximized;
             guna2Panel2.ResumeLayout(false);
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -306,5 +326,6 @@
         private Button button9;
         private Button butUsers;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
     }
 }

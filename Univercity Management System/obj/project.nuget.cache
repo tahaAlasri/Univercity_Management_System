@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eE6/1bSFIyc=",
+  "dgSpecHash": "OG3+fZyMD7k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

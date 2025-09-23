@@ -1,24 +1,24 @@
-﻿namespace Univercity_Management_System
-{
-    partial class LecturerForm
+﻿    namespace Univercity_Management_System
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
-
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+        partial class LecturerForm
         {
-            if (disposing && (components != null))
+            /// <summary>
+            /// Required designer variable.
+            /// </summary>
+            private System.ComponentModel.IContainer components = null;
+
+            /// <summary>
+            /// Clean up any resources being used.
+            /// </summary>
+            /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+            protected override void Dispose(bool disposing)
             {
-                components.Dispose();
+                if (disposing && (components != null))
+                {
+                    components.Dispose();
+                }
+                base.Dispose(disposing);
             }
-            base.Dispose(disposing);
-        }
 
         #region Windows Form Designer generated code
 
@@ -48,19 +48,13 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LecturerForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             dgv_Lecturer_info = new DataGridView();
             butMin = new Guna.UI2.WinForms.Guna2Button();
             but_back = new Guna.UI2.WinForms.Guna2Button();
@@ -76,8 +70,6 @@
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            tex_user_id = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             but_print = new Guna.UI2.WinForms.Guna2Button();
             tex_Dep_id = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -159,7 +151,7 @@
             Tex_rank.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
             Tex_rank.ForeColor = Color.FromArgb(0, 0, 64);
             Tex_rank.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Tex_rank.Location = new Point(268, 242);
+            Tex_rank.Location = new Point(268, 285);
             Tex_rank.Margin = new Padding(5, 8, 5, 8);
             Tex_rank.Name = "Tex_rank";
             Tex_rank.PlaceholderText = "";
@@ -183,7 +175,7 @@
             Tex_name.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
             Tex_name.ForeColor = Color.FromArgb(0, 0, 64);
             Tex_name.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Tex_name.Location = new Point(268, 155);
+            Tex_name.Location = new Point(268, 182);
             Tex_name.Margin = new Padding(5, 8, 5, 8);
             Tex_name.Name = "Tex_name";
             Tex_name.PlaceholderText = "";
@@ -228,12 +220,13 @@
             Tex_Lecturerid.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Tex_Lecturerid.ForeColor = Color.FromArgb(0, 0, 64);
             Tex_Lecturerid.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Tex_Lecturerid.Location = new Point(268, 69);
+            Tex_Lecturerid.Location = new Point(268, 77);
             Tex_Lecturerid.Margin = new Padding(5, 8, 5, 8);
             Tex_Lecturerid.Name = "Tex_Lecturerid";
             Tex_Lecturerid.PlaceholderText = "";
             Tex_Lecturerid.SelectedText = "";
             Tex_Lecturerid.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            Tex_Lecturerid.ShortcutsEnabled = false;
             Tex_Lecturerid.Size = new Size(356, 47);
             Tex_Lecturerid.TabIndex = 4;
             Tex_Lecturerid.TextAlign = HorizontalAlignment.Center;
@@ -266,7 +259,7 @@
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel5.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel5.Location = new Point(124, 242);
+            guna2HtmlLabel5.Location = new Point(124, 285);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             guna2HtmlLabel5.Size = new Size(67, 47);
             guna2HtmlLabel5.TabIndex = 3;
@@ -321,7 +314,7 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel3.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel3.Location = new Point(124, 155);
+            guna2HtmlLabel3.Location = new Point(124, 182);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             guna2HtmlLabel3.Size = new Size(75, 47);
             guna2HtmlLabel3.TabIndex = 1;
@@ -334,7 +327,7 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel2.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel2.Location = new Point(61, 69);
+            guna2HtmlLabel2.Location = new Point(61, 84);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(138, 47);
             guna2HtmlLabel2.TabIndex = 0;
@@ -367,8 +360,6 @@
             // guna2GroupBox1
             // 
             guna2GroupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            guna2GroupBox1.Controls.Add(tex_user_id);
-            guna2GroupBox1.Controls.Add(guna2HtmlLabel6);
             guna2GroupBox1.Controls.Add(but_print);
             guna2GroupBox1.Controls.Add(tex_Dep_id);
             guna2GroupBox1.Controls.Add(guna2HtmlLabel4);
@@ -384,60 +375,23 @@
             guna2GroupBox1.Controls.Add(guna2HtmlLabel3);
             guna2GroupBox1.Controls.Add(guna2HtmlLabel2);
             guna2GroupBox1.CustomBorderColor = Color.FromArgb(0, 0, 64);
-            guna2GroupBox1.CustomizableEdges = customizableEdges27;
+            guna2GroupBox1.CustomizableEdges = customizableEdges25;
             guna2GroupBox1.FillColor = Color.FromArgb(241, 237, 228);
             guna2GroupBox1.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2GroupBox1.ForeColor = Color.White;
             guna2GroupBox1.Location = new Point(-6, 93);
             guna2GroupBox1.Name = "guna2GroupBox1";
-            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2GroupBox1.Size = new Size(1131, 514);
             guna2GroupBox1.TabIndex = 12;
             guna2GroupBox1.Text = "Lecturer information";
             guna2GroupBox1.UseWaitCursor = true;
             // 
-            // tex_user_id
-            // 
-            tex_user_id.Anchor = AnchorStyles.Left;
-            tex_user_id.CustomizableEdges = customizableEdges21;
-            tex_user_id.DefaultText = "";
-            tex_user_id.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            tex_user_id.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            tex_user_id.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            tex_user_id.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            tex_user_id.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            tex_user_id.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
-            tex_user_id.ForeColor = Color.FromArgb(0, 0, 64);
-            tex_user_id.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tex_user_id.Location = new Point(268, 434);
-            tex_user_id.Margin = new Padding(5, 8, 5, 8);
-            tex_user_id.Name = "tex_user_id";
-            tex_user_id.PlaceholderText = "";
-            tex_user_id.SelectedText = "";
-            tex_user_id.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            tex_user_id.Size = new Size(356, 47);
-            tex_user_id.TabIndex = 24;
-            tex_user_id.TextAlign = HorizontalAlignment.Center;
-            tex_user_id.UseWaitCursor = true;
-            // 
-            // guna2HtmlLabel6
-            // 
-            guna2HtmlLabel6.Anchor = AnchorStyles.Left;
-            guna2HtmlLabel6.BackColor = Color.Transparent;
-            guna2HtmlLabel6.Font = new Font("Dubai", 16F, FontStyle.Bold);
-            guna2HtmlLabel6.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel6.Location = new Point(96, 434);
-            guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(95, 47);
-            guna2HtmlLabel6.TabIndex = 23;
-            guna2HtmlLabel6.Text = "User ID:";
-            guna2HtmlLabel6.UseWaitCursor = true;
-            // 
             // but_print
             // 
             but_print.Anchor = AnchorStyles.Right;
             but_print.BackColor = Color.FromArgb(242, 238, 229);
-            but_print.CustomizableEdges = customizableEdges23;
+            but_print.CustomizableEdges = customizableEdges21;
             but_print.DisabledState.BorderColor = Color.DarkGray;
             but_print.DisabledState.CustomBorderColor = Color.DarkGray;
             but_print.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -448,7 +402,7 @@
             but_print.ForeColor = Color.White;
             but_print.Location = new Point(723, 425);
             but_print.Name = "but_print";
-            but_print.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            but_print.ShadowDecoration.CustomizableEdges = customizableEdges22;
             but_print.Size = new Size(378, 56);
             but_print.TabIndex = 22;
             but_print.Text = "Print";
@@ -458,7 +412,7 @@
             // tex_Dep_id
             // 
             tex_Dep_id.Anchor = AnchorStyles.Left;
-            tex_Dep_id.CustomizableEdges = customizableEdges25;
+            tex_Dep_id.CustomizableEdges = customizableEdges23;
             tex_Dep_id.DefaultText = "";
             tex_Dep_id.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tex_Dep_id.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -468,12 +422,12 @@
             tex_Dep_id.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
             tex_Dep_id.ForeColor = Color.FromArgb(0, 0, 64);
             tex_Dep_id.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tex_Dep_id.Location = new Point(268, 337);
+            tex_Dep_id.Location = new Point(268, 397);
             tex_Dep_id.Margin = new Padding(5, 8, 5, 8);
             tex_Dep_id.Name = "tex_Dep_id";
             tex_Dep_id.PlaceholderText = "";
             tex_Dep_id.SelectedText = "";
-            tex_Dep_id.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            tex_Dep_id.ShadowDecoration.CustomizableEdges = customizableEdges24;
             tex_Dep_id.Size = new Size(356, 47);
             tex_Dep_id.TabIndex = 21;
             tex_Dep_id.TextAlign = HorizontalAlignment.Center;
@@ -485,7 +439,7 @@
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel4.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel4.Location = new Point(20, 337);
+            guna2HtmlLabel4.Location = new Point(20, 397);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             guna2HtmlLabel4.Size = new Size(179, 47);
             guna2HtmlLabel4.TabIndex = 20;
@@ -523,7 +477,7 @@
             printPreviewDialog1.Name = "printPreviewDialog1";
             printPreviewDialog1.Visible = false;
             // 
-            // Lecturer
+            // LecturerForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -535,7 +489,7 @@
             Controls.Add(guna2GroupBox1);
             Controls.Add(guna2HtmlLabel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Lecturer";
+            Name = "LecturerForm";
             Text = "Lecturer";
             WindowState = FormWindowState.Maximized;
             Load += Lecturer_Load;
@@ -549,28 +503,26 @@
         #endregion
 
         private DataGridView dgv_Lecturer_info;
-        private Guna.UI2.WinForms.Guna2Button butMin;
-        private Guna.UI2.WinForms.Guna2Button but_back;
-        private Guna.UI2.WinForms.Guna2TextBox Tex_rank;
-        private Guna.UI2.WinForms.Guna2TextBox Tex_name;
-        private Guna.UI2.WinForms.Guna2Button But_clear;
-        private Guna.UI2.WinForms.Guna2TextBox Tex_Lecturerid;
-        private Guna.UI2.WinForms.Guna2Button But_delete;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2Button But_update;
-        private Guna.UI2.WinForms.Guna2Button But_add;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2Button but_print;
-        private Guna.UI2.WinForms.Guna2TextBox tex_Dep_id;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private PrintDialog printDialog1;
-        private System.Drawing.Printing.PrintDocument printDocument1;
-        private PrintPreviewDialog printPreviewDialog1;
-        private Guna.UI2.WinForms.Guna2TextBox tex_user_id;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+            private Guna.UI2.WinForms.Guna2Button butMin;
+            private Guna.UI2.WinForms.Guna2Button but_back;
+            private Guna.UI2.WinForms.Guna2TextBox Tex_rank;
+            private Guna.UI2.WinForms.Guna2TextBox Tex_name;
+            private Guna.UI2.WinForms.Guna2Button But_clear;
+            private Guna.UI2.WinForms.Guna2TextBox Tex_Lecturerid;
+            private Guna.UI2.WinForms.Guna2Button But_delete;
+            private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+            private Guna.UI2.WinForms.Guna2Button But_update;
+            private Guna.UI2.WinForms.Guna2Button But_add;
+            private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+            private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+            private Guna.UI2.WinForms.Guna2Button guna2Button1;
+            private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
+            private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+            private Guna.UI2.WinForms.Guna2Button but_print;
+            private Guna.UI2.WinForms.Guna2TextBox tex_Dep_id;
+            private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+            private PrintDialog printDialog1;
+            private System.Drawing.Printing.PrintDocument printDocument1;
+            private PrintPreviewDialog printPreviewDialog1;
+        }
     }
-}

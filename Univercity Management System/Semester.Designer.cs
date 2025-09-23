@@ -47,14 +47,14 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             butMin = new Guna.UI2.WinForms.Guna2Button();
             Tex_Semester_name = new Guna.UI2.WinForms.Guna2TextBox();
             But_clear = new Guna.UI2.WinForms.Guna2Button();
@@ -67,13 +67,13 @@
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             chk_IsActive = new Guna.UI2.WinForms.Guna2CheckBox();
             dtp_EndDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             dtp_StartDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             cmb_Year = new Guna.UI2.WinForms.Guna2ComboBox();
             guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             dgv_Semester_info = new DataGridView();
             guna2GroupBox1.SuspendLayout();
@@ -328,30 +328,9 @@
             guna2GroupBox1.Text = "Semester information";
             guna2GroupBox1.UseWaitCursor = true;
             // 
-            // guna2Button2
-            // 
-            guna2Button2.Anchor = AnchorStyles.Right;
-            guna2Button2.BackColor = Color.FromArgb(242, 238, 229);
-            guna2Button2.CustomizableEdges = customizableEdges25;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.FromArgb(192, 0, 0);
-            guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
-            guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2Button2.Location = new Point(847, 651);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            guna2Button2.Size = new Size(461, 56);
-            guna2Button2.TabIndex = 18;
-            guna2Button2.Text = "Back <ـــــــــ";
-            guna2Button2.UseWaitCursor = true;
-            guna2Button2.Click += guna2Button2_Click;
-            // 
             // chk_IsActive
             // 
-            chk_IsActive.Anchor = AnchorStyles.None;
+            chk_IsActive.Anchor = AnchorStyles.Left;
             chk_IsActive.AutoSize = true;
             chk_IsActive.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
             chk_IsActive.CheckedState.BorderRadius = 0;
@@ -372,7 +351,7 @@
             // 
             // dtp_EndDate
             // 
-            dtp_EndDate.Anchor = AnchorStyles.None;
+            dtp_EndDate.Anchor = AnchorStyles.Left;
             dtp_EndDate.Checked = true;
             dtp_EndDate.CustomizableEdges = customizableEdges17;
             dtp_EndDate.FillColor = Color.FromArgb(241, 237, 228);
@@ -392,7 +371,7 @@
             // 
             // dtp_StartDate
             // 
-            dtp_StartDate.Anchor = AnchorStyles.None;
+            dtp_StartDate.Anchor = AnchorStyles.Left;
             dtp_StartDate.Checked = true;
             dtp_StartDate.CustomizableEdges = customizableEdges19;
             dtp_StartDate.FillColor = Color.FromArgb(241, 237, 228);
@@ -412,6 +391,7 @@
             // 
             // cmb_Year
             // 
+            cmb_Year.Anchor = AnchorStyles.Left;
             cmb_Year.BackColor = Color.Transparent;
             cmb_Year.CustomizableEdges = customizableEdges21;
             cmb_Year.DrawMode = DrawMode.OwnerDrawFixed;
@@ -454,6 +434,27 @@
             guna2HtmlLabel4.TabIndex = 8;
             guna2HtmlLabel4.Text = "Start Date:";
             guna2HtmlLabel4.UseWaitCursor = true;
+            // 
+            // guna2Button2
+            // 
+            guna2Button2.Anchor = AnchorStyles.Right;
+            guna2Button2.BackColor = Color.FromArgb(242, 238, 229);
+            guna2Button2.CustomizableEdges = customizableEdges25;
+            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button2.FillColor = Color.FromArgb(192, 0, 0);
+            guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
+            guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
+            guna2Button2.Location = new Point(847, 651);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2Button2.Size = new Size(461, 56);
+            guna2Button2.TabIndex = 18;
+            guna2Button2.Text = "Back <ـــــــــ";
+            guna2Button2.UseWaitCursor = true;
+            guna2Button2.Click += guna2Button2_Click;
             // 
             // guna2HtmlLabel1
             // 
