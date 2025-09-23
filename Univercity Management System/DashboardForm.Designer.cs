@@ -63,11 +63,11 @@
             // 
             guna2HtmlLabel1.Anchor = AnchorStyles.Top;
             guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Dubai", 18F, FontStyle.Bold);
+            guna2HtmlLabel1.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold);
             guna2HtmlLabel1.ForeColor = Color.White;
             guna2HtmlLabel1.Location = new Point(339, 26);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(540, 53);
+            guna2HtmlLabel1.Size = new Size(592, 38);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "Welcome to the Al-Snowaryon University!";
             // 
@@ -85,7 +85,7 @@
             guna2Panel2.Controls.Add(butLecturer);
             guna2Panel2.Controls.Add(butStudent);
             guna2Panel2.CustomizableEdges = customizableEdges1;
-            guna2Panel2.Font = new Font("Dubai", 16F, FontStyle.Bold);
+            guna2Panel2.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold);
             guna2Panel2.Location = new Point(-1, 0);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges2;
@@ -95,7 +95,7 @@
             // butUsers
             // 
             butUsers.BackColor = Color.FromArgb(241, 237, 228);
-            butUsers.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butUsers.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butUsers.Location = new Point(23, 119);
             butUsers.Name = "butUsers";
             butUsers.Size = new Size(239, 49);
@@ -109,7 +109,7 @@
             // 
             button9.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             button9.BackColor = Color.FromArgb(241, 237, 228);
-            button9.Font = new Font("Dubai", 16F, FontStyle.Bold);
+            button9.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold);
             button9.ForeColor = Color.Maroon;
             button9.Location = new Point(25, 872);
             button9.Name = "button9";
@@ -123,7 +123,7 @@
             // butCourseSemester
             // 
             butCourseSemester.BackColor = Color.FromArgb(241, 237, 228);
-            butCourseSemester.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butCourseSemester.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butCourseSemester.Location = new Point(25, 675);
             butCourseSemester.Name = "butCourseSemester";
             butCourseSemester.Size = new Size(238, 47);
@@ -135,7 +135,7 @@
             // butYears
             // 
             butYears.BackColor = Color.FromArgb(241, 237, 228);
-            butYears.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butYears.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butYears.Location = new Point(23, 302);
             butYears.Name = "butYears";
             butYears.Size = new Size(239, 49);
@@ -148,7 +148,7 @@
             // butStudentCourse
             // 
             butStudentCourse.BackColor = Color.FromArgb(241, 237, 228);
-            butStudentCourse.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butStudentCourse.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butStudentCourse.Location = new Point(23, 589);
             butStudentCourse.Name = "butStudentCourse";
             butStudentCourse.Size = new Size(239, 49);
@@ -160,7 +160,7 @@
             // butUniversity
             // 
             butUniversity.BackColor = Color.FromArgb(241, 237, 228);
-            butUniversity.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butUniversity.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butUniversity.Location = new Point(23, 30);
             butUniversity.Name = "butUniversity";
             butUniversity.Size = new Size(239, 49);
@@ -168,11 +168,12 @@
             butUniversity.Tag = "1";
             butUniversity.Text = "University Manegment";
             butUniversity.UseVisualStyleBackColor = false;
+            butUniversity.Click += butUniversity_Click;
             // 
             // butFaculty
             // 
             butFaculty.BackColor = Color.FromArgb(241, 237, 228);
-            butFaculty.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butFaculty.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butFaculty.Location = new Point(24, 211);
             butFaculty.Name = "butFaculty";
             butFaculty.Size = new Size(238, 47);
@@ -184,7 +185,7 @@
             // butLecturer
             // 
             butLecturer.BackColor = Color.FromArgb(241, 237, 228);
-            butLecturer.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butLecturer.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butLecturer.Location = new Point(24, 402);
             butLecturer.Name = "butLecturer";
             butLecturer.Size = new Size(239, 49);
@@ -197,7 +198,7 @@
             // butStudent
             // 
             butStudent.BackColor = Color.FromArgb(241, 237, 228);
-            butStudent.Font = new Font("Dubai", 12F, FontStyle.Bold);
+            butStudent.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             butStudent.Location = new Point(24, 496);
             butStudent.Name = "butStudent";
             butStudent.Size = new Size(239, 50);
@@ -219,7 +220,7 @@
             butMin.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             butMin.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             butMin.FillColor = Color.FromArgb(0, 0, 64);
-            butMin.Font = new Font("Dubai", 14.1999989F, FontStyle.Bold);
+            butMin.Font = new Font("Microsoft Sans Serif", 14.1999989F, FontStyle.Bold);
             butMin.ForeColor = Color.White;
             butMin.Location = new Point(1080, 12);
             butMin.Name = "butMin";
@@ -241,7 +242,7 @@
             guna2Button1.DisabledState.FillColor = Color.FromArgb(241, 237, 228);
             guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             guna2Button1.FillColor = Color.FromArgb(0, 0, 64);
-            guna2Button1.Font = new Font("Dubai", 14.1999989F, FontStyle.Bold);
+            guna2Button1.Font = new Font("Microsoft Sans Serif", 14.1999989F, FontStyle.Bold);
             guna2Button1.ForeColor = Color.White;
             guna2Button1.Location = new Point(1140, 12);
             guna2Button1.Name = "guna2Button1";
@@ -266,7 +267,7 @@
             guna2Panel1.Controls.Add(guna2HtmlLabel1);
             guna2Panel1.Controls.Add(guna2Button1);
             guna2Panel1.CustomizableEdges = customizableEdges8;
-            guna2Panel1.Font = new Font("Dubai", 16F, FontStyle.Bold);
+            guna2Panel1.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold);
             guna2Panel1.Location = new Point(301, 0);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges9;

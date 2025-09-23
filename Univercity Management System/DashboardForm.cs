@@ -61,5 +61,13 @@ namespace Univercity_Management_System
             student.Show();
             this.Hide();
         }
+
+        private void butUniversity_Click(object sender, EventArgs e)
+        {
+            University__Manegmen un = new University__Manegmen();
+
+            un.Show();
+            this.Hide();
+        }
     }
 }
