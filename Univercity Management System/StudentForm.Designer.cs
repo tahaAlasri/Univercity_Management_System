@@ -126,7 +126,7 @@ namespace Univercity_Management_System
             but_print.Name = "but_print";
             but_print.ShadowDecoration.CustomizableEdges = customizableEdges2;
             but_print.Size = new Size(378, 56);
-            but_print.TabIndex = 22;
+            but_print.TabIndex = 12;
             but_print.Text = "Print";
             but_print.UseWaitCursor = true;
             but_print.Click += but_print_Click;
@@ -161,7 +161,7 @@ namespace Univercity_Management_System
             but_back.Name = "but_back";
             but_back.ShadowDecoration.CustomizableEdges = customizableEdges4;
             but_back.Size = new Size(378, 56);
-            but_back.TabIndex = 19;
+            but_back.TabIndex = 13;
             but_back.Text = "Back <ـــــــــ";
             but_back.UseWaitCursor = true;
             but_back.Click += but_back_Click;
@@ -187,7 +187,7 @@ namespace Univercity_Management_System
             Tex_email.SelectedText = "";
             Tex_email.ShadowDecoration.CustomizableEdges = customizableEdges6;
             Tex_email.Size = new Size(356, 47);
-            Tex_email.TabIndex = 7;
+            Tex_email.TabIndex = 4;
             Tex_email.TextAlign = HorizontalAlignment.Center;
             Tex_email.UseWaitCursor = true;
             // 
@@ -212,7 +212,7 @@ namespace Univercity_Management_System
             Tex_name.SelectedText = "";
             Tex_name.ShadowDecoration.CustomizableEdges = customizableEdges8;
             Tex_name.Size = new Size(356, 47);
-            Tex_name.TabIndex = 5;
+            Tex_name.TabIndex = 2;
             Tex_name.TextAlign = HorizontalAlignment.Center;
             Tex_name.UseWaitCursor = true;
             // 
@@ -233,7 +233,7 @@ namespace Univercity_Management_System
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges10;
             But_clear.Size = new Size(165, 56);
-            But_clear.TabIndex = 5;
+            But_clear.TabIndex = 11;
             But_clear.Text = "Clear";
             But_clear.UseWaitCursor = true;
             But_clear.Click += But_clear_Click;
@@ -261,7 +261,7 @@ namespace Univercity_Management_System
             Tex_Student_id.ShadowDecoration.CustomizableEdges = customizableEdges12;
             Tex_Student_id.ShortcutsEnabled = false;
             Tex_Student_id.Size = new Size(356, 47);
-            Tex_Student_id.TabIndex = 4;
+            Tex_Student_id.TabIndex = 1;
             Tex_Student_id.TextAlign = HorizontalAlignment.Center;
             Tex_Student_id.UseWaitCursor = true;
             // 
@@ -282,7 +282,7 @@ namespace Univercity_Management_System
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges14;
             But_delete.Size = new Size(165, 56);
-            But_delete.TabIndex = 4;
+            But_delete.TabIndex = 10;
             But_delete.Text = "Delete";
             But_delete.UseWaitCursor = true;
             But_delete.Click += But_delete_Click;
@@ -318,7 +318,7 @@ namespace Univercity_Management_System
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges16;
             But_update.Size = new Size(165, 56);
-            But_update.TabIndex = 3;
+            But_update.TabIndex = 9;
             But_update.Text = "Update";
             But_update.UseWaitCursor = true;
             But_update.Click += But_update_Click;
@@ -341,7 +341,7 @@ namespace Univercity_Management_System
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges18;
             But_add.Size = new Size(165, 56);
-            But_add.TabIndex = 2;
+            But_add.TabIndex = 8;
             But_add.Text = "Add";
             But_add.UseWaitCursor = true;
             But_add.Click += But_add_Click;
@@ -512,7 +512,7 @@ namespace Univercity_Management_System
             cb_lecturer_id.Name = "cb_lecturer_id";
             cb_lecturer_id.ShadowDecoration.CustomizableEdges = customizableEdges24;
             cb_lecturer_id.Size = new Size(356, 36);
-            cb_lecturer_id.TabIndex = 32;
+            cb_lecturer_id.TabIndex = 6;
             cb_lecturer_id.TextAlign = HorizontalAlignment.Center;
             cb_lecturer_id.UseWaitCursor = true;
             // 
@@ -534,7 +534,7 @@ namespace Univercity_Management_System
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2Button2.Size = new Size(146, 49);
-            guna2Button2.TabIndex = 31;
+            guna2Button2.TabIndex = 7;
             guna2Button2.Text = "Browse:";
             guna2Button2.UseWaitCursor = true;
             guna2Button2.Click += guna2Button2_Click;
@@ -576,7 +576,7 @@ namespace Univercity_Management_System
             tex_programID.SelectedText = "";
             tex_programID.ShadowDecoration.CustomizableEdges = customizableEdges30;
             tex_programID.Size = new Size(356, 47);
-            tex_programID.TabIndex = 28;
+            tex_programID.TabIndex = 5;
             tex_programID.TextAlign = HorizontalAlignment.Center;
             tex_programID.UseWaitCursor = true;
             // 
@@ -609,7 +609,7 @@ namespace Univercity_Management_System
             dtp_Student.Name = "dtp_Student";
             dtp_Student.ShadowDecoration.CustomizableEdges = customizableEdges32;
             dtp_Student.Size = new Size(356, 45);
-            dtp_Student.TabIndex = 26;
+            dtp_Student.TabIndex = 3;
             dtp_Student.TextAlign = HorizontalAlignment.Center;
             dtp_Student.UseWaitCursor = true;
             dtp_Student.Value = new DateTime(2025, 9, 18, 19, 42, 1, 186);
@@ -712,7 +712,6 @@ namespace Univercity_Management_System
             pb_yourCardPic.TabIndex = 34;
             pb_yourCardPic.TabStop = false;
             pb_yourCardPic.UseWaitCursor = true;
-            pb_yourCardPic.Click += pb_yourCardPic_Click;
             // 
             // openFileDialog1
             // 
@@ -736,7 +735,7 @@ namespace Univercity_Management_System
             but_card.Name = "but_card";
             but_card.ShadowDecoration.CustomizableEdges = customizableEdges40;
             but_card.Size = new Size(319, 56);
-            but_card.TabIndex = 33;
+            but_card.TabIndex = 14;
             but_card.Text = "Card";
             but_card.UseWaitCursor = true;
             but_card.Click += but_card_Click;
@@ -759,7 +758,7 @@ namespace Univercity_Management_System
             Back.Name = "Back";
             Back.ShadowDecoration.CustomizableEdges = customizableEdges42;
             Back.Size = new Size(319, 56);
-            Back.TabIndex = 35;
+            Back.TabIndex = 15;
             Back.Text = "Back <ـــــــــ";
             Back.UseWaitCursor = true;
             Back.Click += Back_Click;

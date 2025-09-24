@@ -1893,23 +1893,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hesha\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hesha\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
       "projectName": "Univercity Management System",
-      "projectPath": "C:\\Users\\hesha\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
-      "packagesPath": "C:\\Users\\hesha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hesha\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\Univercity Management System.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\Univercity_Management_System\\Univercity Management System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1974,7 +1974,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

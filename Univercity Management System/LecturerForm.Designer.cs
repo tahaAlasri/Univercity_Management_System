@@ -131,11 +131,11 @@
             but_back.FillColor = Color.FromArgb(26, 125, 139);
             but_back.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_back.ForeColor = Color.FromArgb(0, 0, 64);
-            but_back.Location = new Point(723, 316);
+            but_back.Location = new Point(723, 444);
             but_back.Name = "but_back";
             but_back.ShadowDecoration.CustomizableEdges = customizableEdges4;
             but_back.Size = new Size(378, 56);
-            but_back.TabIndex = 8;
+            but_back.TabIndex = 10;
             but_back.Text = "Back <ـــــــــ";
             but_back.UseWaitCursor = true;
             but_back.Click += but_back_Click_1;
@@ -207,7 +207,7 @@
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges10;
             But_clear.Size = new Size(165, 56);
-            But_clear.TabIndex = 7;
+            But_clear.TabIndex = 8;
             But_clear.Text = "Clear";
             But_clear.UseWaitCursor = true;
             But_clear.Click += But_clear_Click_1;
@@ -256,7 +256,7 @@
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges14;
             But_delete.Size = new Size(165, 56);
-            But_delete.TabIndex = 6;
+            But_delete.TabIndex = 7;
             But_delete.Text = "Delete";
             But_delete.UseWaitCursor = true;
             But_delete.Click += But_delete_Click_1;
@@ -291,7 +291,7 @@
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges16;
             But_update.Size = new Size(165, 56);
-            But_update.TabIndex = 5;
+            But_update.TabIndex = 6;
             But_update.Text = "Update";
             But_update.UseWaitCursor = true;
             But_update.Click += But_update_Click;
@@ -313,7 +313,7 @@
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges18;
             But_add.Size = new Size(165, 56);
-            But_add.TabIndex = 4;
+            But_add.TabIndex = 5;
             But_add.Text = "Add";
             But_add.UseWaitCursor = true;
             But_add.Click += But_add_Click;
@@ -411,7 +411,7 @@
             but_print.FocusedColor = Color.White;
             but_print.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_print.ForeColor = Color.White;
-            but_print.Location = new Point(723, 425);
+            but_print.Location = new Point(723, 325);
             but_print.Name = "but_print";
             but_print.ShadowDecoration.CustomizableEdges = customizableEdges22;
             but_print.Size = new Size(378, 56);
@@ -441,7 +441,7 @@
             tex_Dep_id.SelectedText = "";
             tex_Dep_id.ShadowDecoration.CustomizableEdges = customizableEdges24;
             tex_Dep_id.Size = new Size(356, 47);
-            tex_Dep_id.TabIndex = 21;
+            tex_Dep_id.TabIndex = 4;
             tex_Dep_id.TextAlign = HorizontalAlignment.Center;
             tex_Dep_id.UseWaitCursor = true;
             // 
@@ -451,11 +451,11 @@
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel4.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel4.Location = new Point(20, 397);
+            guna2HtmlLabel4.Location = new Point(66, 397);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(179, 47);
+            guna2HtmlLabel4.Size = new Size(125, 47);
             guna2HtmlLabel4.TabIndex = 20;
-            guna2HtmlLabel4.Text = "Department ID:";
+            guna2HtmlLabel4.Text = "Faculty ID:";
             guna2HtmlLabel4.UseWaitCursor = true;
             // 
             // guna2HtmlLabel1

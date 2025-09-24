@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Univercity_Management_System
+
 {
     public partial class DashboardForm : Form
     {
@@ -27,46 +27,57 @@ namespace Univercity_Management_System
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void guna2Button7_Click(object sender, EventArgs e)
         {
-            Form1 dashboard = new Form1();
-            dashboard.Show();
+            Form1 f1 = new Form1();
+            f1.Show();
             this.Hide();
         }
 
-        private void butUsers_Click(object sender, EventArgs e)
+        private void but_programForm_Click(object sender, EventArgs e)
         {
-            create_users frm = new create_users();
-            frm.Show();
+            University__Manegmen university__Manegmen = new University__Manegmen();
+            university__Manegmen.ShowDialog();
             this.Hide();
         }
 
-        private void butYears_Click(object sender, EventArgs e)
+        private void guna2Button5_Click(object sender, EventArgs e)
         {
-            Yaers yaer = new Yaers();
-            yaer.Show();
+            create_users create_Users = new create_users();
+            create_Users.ShowDialog();
             this.Hide();
         }
 
-        private void butLecturer_Click(object sender, EventArgs e)
+        private void guna2Button4_Click(object sender, EventArgs e)
         {
-            LecturerForm lec = new LecturerForm();
-            lec.Show();
+            Yaers year = new Yaers();
+            year.ShowDialog();
             this.Hide();
         }
 
-        private void butStudent_Click(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
-            StudentForm student = new StudentForm();
-            student.Show();
+            LecturerForm lecturerForm = new LecturerForm();
+            lecturerForm.ShowDialog();
             this.Hide();
         }
 
-        private void butUniversity_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
-            University__Manegmen un = new University__Manegmen();
+            StudentForm studentForm = new StudentForm();
+            studentForm.ShowDialog();
+            this.Hide();
+        }
 
-            un.Show();
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            Student_Course sc = new Student_Course();
+            sc.ShowDialog();
             this.Hide();
         }
     }

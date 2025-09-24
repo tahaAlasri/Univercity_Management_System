@@ -37,7 +37,7 @@ namespace Univercity_Management_System
             {
                 lecturer.Name = Tex_name.Text;
                 lecturer.Rank = Tex_rank.Text;
-                lecturer.DepartmentID = tex_Dep_id.Text;
+                lecturer.FacultyID = tex_Dep_id.Text;
 
                 if (lecturer.AddLecturer())
                 {
@@ -55,7 +55,7 @@ namespace Univercity_Management_System
                 lecturer.LecturerID = Tex_Lecturerid.Text;
                 lecturer.Name = Tex_name.Text;
                 lecturer.Rank = Tex_rank.Text;
-                lecturer.DepartmentID = tex_Dep_id.Text;
+                lecturer.FacultyID = tex_Dep_id.Text;
 
                 if (lecturer.UpdateLecturer())
                 {

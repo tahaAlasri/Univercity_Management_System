@@ -161,7 +161,7 @@
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button2.Size = new Size(461, 56);
-            guna2Button2.TabIndex = 19;
+            guna2Button2.TabIndex = 1;
             guna2Button2.Text = "Back <ـــــــــ";
             guna2Button2.UseWaitCursor = true;
             guna2Button2.Click += guna2Button2_Click;

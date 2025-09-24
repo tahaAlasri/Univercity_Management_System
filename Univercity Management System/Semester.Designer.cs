@@ -117,14 +117,14 @@
             Tex_Semester_name.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
             Tex_Semester_name.ForeColor = Color.FromArgb(0, 0, 64);
             Tex_Semester_name.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Tex_Semester_name.Location = new Point(352, 149);
+            Tex_Semester_name.Location = new Point(352, 162);
             Tex_Semester_name.Margin = new Padding(5, 8, 5, 8);
             Tex_Semester_name.Name = "Tex_Semester_name";
             Tex_Semester_name.PlaceholderText = "";
             Tex_Semester_name.SelectedText = "";
             Tex_Semester_name.ShadowDecoration.CustomizableEdges = customizableEdges4;
             Tex_Semester_name.Size = new Size(356, 47);
-            Tex_Semester_name.TabIndex = 5;
+            Tex_Semester_name.TabIndex = 2;
             Tex_Semester_name.TextAlign = HorizontalAlignment.Center;
             Tex_Semester_name.UseWaitCursor = true;
             // 
@@ -145,7 +145,7 @@
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges6;
             But_clear.Size = new Size(165, 56);
-            But_clear.TabIndex = 5;
+            But_clear.TabIndex = 10;
             But_clear.Text = "Clear";
             But_clear.UseWaitCursor = true;
             But_clear.Click += But_clear_Click;
@@ -172,7 +172,7 @@
             Tex_Semester_id.SelectedText = "";
             Tex_Semester_id.ShadowDecoration.CustomizableEdges = customizableEdges8;
             Tex_Semester_id.Size = new Size(356, 47);
-            Tex_Semester_id.TabIndex = 4;
+            Tex_Semester_id.TabIndex = 1;
             Tex_Semester_id.TextAlign = HorizontalAlignment.Center;
             Tex_Semester_id.UseWaitCursor = true;
             // 
@@ -193,7 +193,7 @@
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges10;
             But_delete.Size = new Size(165, 56);
-            But_delete.TabIndex = 4;
+            But_delete.TabIndex = 9;
             But_delete.Text = "Delete";
             But_delete.UseWaitCursor = true;
             But_delete.Click += But_delete_Click;
@@ -228,7 +228,7 @@
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges12;
             But_update.Size = new Size(165, 56);
-            But_update.TabIndex = 3;
+            But_update.TabIndex = 8;
             But_update.Text = "Update";
             But_update.UseWaitCursor = true;
             But_update.Click += But_update_Click;
@@ -250,7 +250,7 @@
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges14;
             But_add.Size = new Size(165, 56);
-            But_add.TabIndex = 2;
+            But_add.TabIndex = 7;
             But_add.Text = "Add";
             But_add.UseWaitCursor = true;
             But_add.Click += But_add_Click;
@@ -261,7 +261,7 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel3.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel3.Location = new Point(25, 149);
+            guna2HtmlLabel3.Location = new Point(25, 162);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             guna2HtmlLabel3.Size = new Size(188, 47);
             guna2HtmlLabel3.TabIndex = 1;
@@ -349,11 +349,11 @@
             guna2Button2.FillColor = Color.FromArgb(26, 125, 139);
             guna2Button2.Font = new Font("Dubai", 18F, FontStyle.Bold);
             guna2Button2.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2Button2.Location = new Point(811, 396);
+            guna2Button2.Location = new Point(811, 382);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Button2.Size = new Size(461, 56);
-            guna2Button2.TabIndex = 18;
+            guna2Button2.TabIndex = 11;
             guna2Button2.Text = "Back <ـــــــــ";
             guna2Button2.UseWaitCursor = true;
             guna2Button2.Click += guna2Button2_Click;
@@ -370,7 +370,7 @@
             chk_IsActive.Location = new Point(362, 457);
             chk_IsActive.Name = "chk_IsActive";
             chk_IsActive.Size = new Size(141, 49);
-            chk_IsActive.TabIndex = 17;
+            chk_IsActive.TabIndex = 6;
             chk_IsActive.Text = "Is Active";
             chk_IsActive.TextAlign = ContentAlignment.MiddleCenter;
             chk_IsActive.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -389,13 +389,13 @@
             dtp_EndDate.Font = new Font("Segoe UI", 9F);
             dtp_EndDate.ForeColor = Color.FromArgb(0, 0, 64);
             dtp_EndDate.Format = DateTimePickerFormat.Long;
-            dtp_EndDate.Location = new Point(352, 374);
+            dtp_EndDate.Location = new Point(352, 382);
             dtp_EndDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtp_EndDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtp_EndDate.Name = "dtp_EndDate";
             dtp_EndDate.ShadowDecoration.CustomizableEdges = customizableEdges20;
             dtp_EndDate.Size = new Size(356, 47);
-            dtp_EndDate.TabIndex = 16;
+            dtp_EndDate.TabIndex = 5;
             dtp_EndDate.TextAlign = HorizontalAlignment.Center;
             dtp_EndDate.UseWaitCursor = true;
             dtp_EndDate.Value = new DateTime(2025, 9, 18, 19, 42, 12, 215);
@@ -410,13 +410,13 @@
             dtp_StartDate.Font = new Font("Segoe UI", 9F);
             dtp_StartDate.ForeColor = Color.FromArgb(0, 0, 64);
             dtp_StartDate.Format = DateTimePickerFormat.Long;
-            dtp_StartDate.Location = new Point(352, 298);
+            dtp_StartDate.Location = new Point(352, 306);
             dtp_StartDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtp_StartDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtp_StartDate.Name = "dtp_StartDate";
             dtp_StartDate.ShadowDecoration.CustomizableEdges = customizableEdges22;
             dtp_StartDate.Size = new Size(356, 45);
-            dtp_StartDate.TabIndex = 15;
+            dtp_StartDate.TabIndex = 4;
             dtp_StartDate.TextAlign = HorizontalAlignment.Center;
             dtp_StartDate.UseWaitCursor = true;
             dtp_StartDate.Value = new DateTime(2025, 9, 18, 19, 42, 1, 186);
@@ -438,7 +438,7 @@
             cmb_Year.Name = "cmb_Year";
             cmb_Year.ShadowDecoration.CustomizableEdges = customizableEdges24;
             cmb_Year.Size = new Size(356, 36);
-            cmb_Year.TabIndex = 14;
+            cmb_Year.TabIndex = 3;
             cmb_Year.TextAlign = HorizontalAlignment.Center;
             cmb_Year.UseWaitCursor = true;
             // 
@@ -448,7 +448,7 @@
             guna2HtmlLabel6.BackColor = Color.Transparent;
             guna2HtmlLabel6.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel6.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel6.Location = new Point(99, 374);
+            guna2HtmlLabel6.Location = new Point(99, 382);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             guna2HtmlLabel6.Size = new Size(114, 47);
             guna2HtmlLabel6.TabIndex = 10;
@@ -461,7 +461,7 @@
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Dubai", 16F, FontStyle.Bold);
             guna2HtmlLabel4.ForeColor = Color.FromArgb(0, 0, 64);
-            guna2HtmlLabel4.Location = new Point(86, 298);
+            guna2HtmlLabel4.Location = new Point(86, 306);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             guna2HtmlLabel4.Size = new Size(127, 47);
             guna2HtmlLabel4.TabIndex = 8;

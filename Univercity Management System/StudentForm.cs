@@ -450,28 +450,28 @@ namespace Univercity_Management_System
         }
         private void but_card_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(Tex_Student_id.Text) || string.IsNullOrEmpty(Tex_name.Text) || string.IsNullOrEmpty(Tex_email.Text) || Pb_yourPic.Image == null)
+            {
+                MessageBox.Show("Please select a student with complete information to generate the card.");
+                return;
+            }
+            else
+            {
+                pb_yourCardPic.Image = Pb_yourPic.Image;
+                Label_name.Text = Tex_name.Text;
+                Label_id.Text = Tex_Student_id.Text;
+                Label_email.Text = Tex_email.Text;
 
-            pb_yourCardPic.Image = Pb_yourPic.Image;
-            Label_name.Text = Tex_name.Text;
-            Label_id.Text = Tex_Student_id.Text;
-            Label_email.Text = Tex_email.Text;
-
-            guna2GroupBox1.Visible = false;
-            dgv_Student_info.Visible = false;
-            guna2Panel1.Visible = true;
-            Label_id.Visible = true;
-            Label_name.Visible = true;
-            Label_email.Visible = true;
-            Back.Visible = true;
-            but_card.Visible = false;
-
+                guna2GroupBox1.Visible = false;
+                dgv_Student_info.Visible = false;
+                guna2Panel1.Visible = true;
+                Label_id.Visible = true;
+                Label_name.Visible = true;
+                Label_email.Visible = true;
+                Back.Visible = true;
+                but_card.Visible = false;
+            }
         }
-
-        private void pb_yourCardPic_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Back_Click(object sender, EventArgs e)
         {
             guna2GroupBox1.Visible = true;

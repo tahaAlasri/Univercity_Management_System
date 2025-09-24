@@ -19,10 +19,16 @@
     <Compile Update="LoginHistoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Semester.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="StudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student_Course.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="University  Manegmen.cs">

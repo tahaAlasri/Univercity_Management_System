@@ -331,3 +331,6 @@ C:\Users\hesha\Source\Repos\Univercity_Management_System\Univercity Management S
 C:\Users\hesha\Source\Repos\Univercity_Management_System\Univercity Management System\obj\Debug\net8.0-windows\Univercity Management System.pdb
 C:\Users\hesha\Source\Repos\Univercity_Management_System\Univercity Management System\obj\Debug\net8.0-windows\Univercity Management System.genruntimeconfig.cache
 C:\Users\hesha\Source\Repos\Univercity_Management_System\Univercity Management System\obj\Debug\net8.0-windows\ref\Univercity Management System.dll
+C:\Users\Admin\Source\Repos\Univercity_Management_System\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.FacultyForme.resources
+C:\Users\Admin\Source\Repos\Univercity_Management_System\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.ProgramForm.resources
+C:\Users\Admin\Source\Repos\Univercity_Management_System\Univercity Management System\obj\Debug\net8.0-windows\Univercity_Management_System.Student_Course.resources

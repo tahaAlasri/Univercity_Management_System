@@ -477,6 +477,7 @@ namespace Univercity_Management_System
         {
             Yaers logForm = new Yaers();
             logForm.ShowDialog();
+            this.Hide();
         }
 
         private void dgv_Semester_info_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)

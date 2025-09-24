@@ -13,18 +13,18 @@ namespace Univercity_Management_System
         public string LecturerID { get; set; }
         public string Name { get; set; }
         public string Rank { get; set; }
-        public string DepartmentID { get; set; }
+        public string FacultyID { get; set; }
 
         // Database connection string
         private string connectionString = Properties.Settings.Default.Univercity_CRUD;
 
         public Lecturer() { }
 
-        public Lecturer( string name, string rank, string department_id)
+        public Lecturer(string name, string rank, string faculty_id)
         {
             Name = name;
             Rank = rank;
-            DepartmentID = department_id;
+            FacultyID = faculty_id;
         }
 
         // Add a new lecturer to the database
@@ -35,13 +35,13 @@ namespace Univercity_Management_System
                 try
                 {
                     conn.Open();
-                    string query = @"INSERT INTO Lecturer ( name, rank, department_id) 
-                                     VALUES (@Name, @Rank, @DepartmentID)";
+                    string query = @"INSERT INTO Lecturer ( name, rank, faculty_id) 
+                                     VALUES (@Name, @Rank, @FacultyID)";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@Name", Name);
                     cmd.Parameters.AddWithValue("@Rank", Rank);
-                    cmd.Parameters.AddWithValue("@DepartmentID", DepartmentID);
+                    cmd.Parameters.AddWithValue("@FacultyID", FacultyID);
 
                     int result = cmd.ExecuteNonQuery();
                     return result > 0;
@@ -63,14 +63,14 @@ namespace Univercity_Management_System
                 {
                     conn.Open();
                     string query = @"UPDATE Lecturer SET name = @Name, rank = @Rank, 
-                                     department_id = @DepartmentID
+                                     faculty_id = @FacultyID
                                      WHERE lecturer_id = @LecturerID";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@LecturerID", LecturerID);
                     cmd.Parameters.AddWithValue("@Name", Name);
                     cmd.Parameters.AddWithValue("@Rank", Rank);
-                    cmd.Parameters.AddWithValue("@DepartmentID", DepartmentID);
+                    cmd.Parameters.AddWithValue("@FacultyID", FacultyID);
 
                     int result = cmd.ExecuteNonQuery();
                     return result > 0;

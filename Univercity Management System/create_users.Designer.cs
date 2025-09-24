@@ -137,14 +137,14 @@
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Button2.Size = new Size(415, 56);
-            guna2Button2.TabIndex = 19;
+            guna2Button2.TabIndex = 9;
             guna2Button2.Text = "Back <ـــــــــ";
             guna2Button2.UseWaitCursor = true;
             guna2Button2.Click += guna2Button2_Click;
             // 
             // btnLoginHistory
             // 
-            btnLoginHistory.Anchor = AnchorStyles.None;
+            btnLoginHistory.Anchor = AnchorStyles.Right;
             btnLoginHistory.BackColor = Color.FromArgb(241, 237, 228);
             btnLoginHistory.BorderRadius = 10;
             btnLoginHistory.CustomizableEdges = customizableEdges3;
@@ -185,7 +185,7 @@
             Tex_role.SelectedText = "";
             Tex_role.ShadowDecoration.CustomizableEdges = customizableEdges6;
             Tex_role.Size = new Size(356, 47);
-            Tex_role.TabIndex = 7;
+            Tex_role.TabIndex = 3;
             Tex_role.TextAlign = HorizontalAlignment.Center;
             Tex_role.UseWaitCursor = true;
             // 
@@ -211,7 +211,7 @@
             Tex_pass.SelectedText = "";
             Tex_pass.ShadowDecoration.CustomizableEdges = customizableEdges8;
             Tex_pass.Size = new Size(356, 47);
-            Tex_pass.TabIndex = 6;
+            Tex_pass.TabIndex = 2;
             Tex_pass.TextAlign = HorizontalAlignment.Center;
             Tex_pass.UseWaitCursor = true;
             // 
@@ -236,7 +236,7 @@
             Tex_username.SelectedText = "";
             Tex_username.ShadowDecoration.CustomizableEdges = customizableEdges10;
             Tex_username.Size = new Size(356, 47);
-            Tex_username.TabIndex = 5;
+            Tex_username.TabIndex = 1;
             Tex_username.TextAlign = HorizontalAlignment.Center;
             Tex_username.UseWaitCursor = true;
             // 
@@ -257,7 +257,7 @@
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges12;
             But_clear.Size = new Size(165, 56);
-            But_clear.TabIndex = 5;
+            But_clear.TabIndex = 7;
             But_clear.Text = "Clear";
             But_clear.UseWaitCursor = true;
             But_clear.Click += But_clear_Click;
@@ -284,7 +284,7 @@
             Tex_userid.SelectedText = "";
             Tex_userid.ShadowDecoration.CustomizableEdges = customizableEdges14;
             Tex_userid.Size = new Size(356, 47);
-            Tex_userid.TabIndex = 4;
+            Tex_userid.TabIndex = 0;
             Tex_userid.TextAlign = HorizontalAlignment.Center;
             Tex_userid.UseWaitCursor = true;
             // 
@@ -305,7 +305,7 @@
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges16;
             But_delete.Size = new Size(165, 56);
-            But_delete.TabIndex = 4;
+            But_delete.TabIndex = 6;
             But_delete.Text = "Delete";
             But_delete.UseWaitCursor = true;
             But_delete.Click += But_delete_Click;
@@ -340,7 +340,7 @@
             But_update.Name = "But_update";
             But_update.ShadowDecoration.CustomizableEdges = customizableEdges18;
             But_update.Size = new Size(165, 56);
-            But_update.TabIndex = 3;
+            But_update.TabIndex = 5;
             But_update.Text = "Update";
             But_update.UseWaitCursor = true;
             But_update.Click += But_update_Click;
@@ -375,7 +375,7 @@
             But_add.Name = "But_add";
             But_add.ShadowDecoration.CustomizableEdges = customizableEdges20;
             But_add.Size = new Size(165, 56);
-            But_add.TabIndex = 2;
+            But_add.TabIndex = 4;
             But_add.Text = "Add";
             But_add.UseWaitCursor = true;
             But_add.Click += But_add_Click;

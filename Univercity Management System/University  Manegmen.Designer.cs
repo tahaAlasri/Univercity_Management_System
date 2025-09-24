@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             button1 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -53,11 +53,11 @@
             // button1
             // 
             button1.BackColor = Color.FromArgb(76, 175, 80);
-            button1.Location = new Point(758, 72);
+            button1.Location = new Point(880, 72);
             button1.Margin = new Padding(4, 3, 4, 3);
             button1.Name = "button1";
             button1.Size = new Size(174, 56);
-            button1.TabIndex = 0;
+            button1.TabIndex = 4;
             button1.Text = "Update";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -65,11 +65,11 @@
             // button3
             // 
             button3.BackColor = Color.FromArgb(244, 67, 54);
-            button3.Location = new Point(573, 174);
+            button3.Location = new Point(662, 174);
             button3.Margin = new Padding(4, 3, 4, 3);
             button3.Name = "button3";
             button3.Size = new Size(169, 50);
-            button3.TabIndex = 2;
+            button3.TabIndex = 5;
             button3.Text = "Delete";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
@@ -77,29 +77,31 @@
             // button4
             // 
             button4.BackColor = Color.FromArgb(158, 158, 158);
-            button4.Location = new Point(765, 174);
+            button4.Location = new Point(887, 174);
             button4.Margin = new Padding(4, 3, 4, 3);
             button4.Name = "button4";
             button4.Size = new Size(167, 50);
-            button4.TabIndex = 3;
+            button4.TabIndex = 6;
             button4.Text = "Clear";
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // txtUniversityID
             // 
-            txtUniversityID.Location = new Point(266, 103);
+            txtUniversityID.Font = new Font("Dubai Medium", 13.7999992F, FontStyle.Bold);
+            txtUniversityID.ForeColor = Color.Black;
+            txtUniversityID.Location = new Point(243, 103);
             txtUniversityID.Margin = new Padding(4, 3, 4, 3);
             txtUniversityID.Name = "txtUniversityID";
             txtUniversityID.Size = new Size(266, 46);
-            txtUniversityID.TabIndex = 4;
+            txtUniversityID.TabIndex = 1;
             txtUniversityID.TextAlign = HorizontalAlignment.Center;
             txtUniversityID.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(41, 229);
+            label1.Location = new Point(18, 229);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(179, 39);
@@ -109,11 +111,11 @@
             // button2
             // 
             button2.BackColor = Color.FromArgb(76, 175, 80);
-            button2.Location = new Point(573, 72);
+            button2.Location = new Point(662, 72);
             button2.Margin = new Padding(4, 3, 4, 3);
             button2.Name = "button2";
             button2.Size = new Size(174, 56);
-            button2.TabIndex = 10;
+            button2.TabIndex = 3;
             button2.Text = "Add";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
@@ -145,11 +147,13 @@
             // 
             // txtUniversityName
             // 
-            txtUniversityName.Location = new Point(266, 226);
+            txtUniversityName.Font = new Font("Dubai Medium", 13.7999992F, FontStyle.Bold);
+            txtUniversityName.ForeColor = Color.Black;
+            txtUniversityName.Location = new Point(243, 229);
             txtUniversityName.Margin = new Padding(4, 3, 4, 3);
             txtUniversityName.Name = "txtUniversityName";
             txtUniversityName.Size = new Size(266, 46);
-            txtUniversityName.TabIndex = 16;
+            txtUniversityName.TabIndex = 2;
             txtUniversityName.TextAlign = HorizontalAlignment.Center;
             // 
             // ID1
@@ -166,11 +170,11 @@
             // 
             button5.BackColor = Color.FromArgb(26, 125, 139);
             button5.ForeColor = Color.White;
-            button5.Location = new Point(573, 270);
+            button5.Location = new Point(662, 270);
             button5.Margin = new Padding(4, 3, 4, 3);
             button5.Name = "button5";
-            button5.Size = new Size(359, 44);
-            button5.TabIndex = 13;
+            button5.Size = new Size(392, 44);
+            button5.TabIndex = 7;
             button5.Text = "Back";
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
@@ -180,6 +184,7 @@
             label4.Anchor = AnchorStyles.Top;
             label4.AutoSize = true;
             label4.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Black;
             label4.Location = new Point(409, 24);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
@@ -194,7 +199,7 @@
             butMin.BackColor = Color.FromArgb(241, 237, 228);
             butMin.BorderColor = Color.FromArgb(241, 237, 228);
             butMin.BorderRadius = 5;
-            butMin.CustomizableEdges = customizableEdges13;
+            butMin.CustomizableEdges = customizableEdges1;
             butMin.DisabledState.BorderColor = Color.DarkGray;
             butMin.DisabledState.CustomBorderColor = Color.DarkGray;
             butMin.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -204,7 +209,7 @@
             butMin.ForeColor = Color.FromArgb(0, 0, 64);
             butMin.Location = new Point(963, 10);
             butMin.Name = "butMin";
-            butMin.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            butMin.ShadowDecoration.CustomizableEdges = customizableEdges2;
             butMin.Size = new Size(42, 42);
             butMin.TabIndex = 19;
             butMin.Text = "-";
@@ -216,7 +221,7 @@
             guna2Button1.BackColor = Color.FromArgb(241, 237, 228);
             guna2Button1.BorderColor = Color.FromArgb(241, 237, 228);
             guna2Button1.BorderRadius = 5;
-            guna2Button1.CustomizableEdges = customizableEdges15;
+            guna2Button1.CustomizableEdges = customizableEdges3;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(241, 237, 228);
@@ -226,7 +231,7 @@
             guna2Button1.ForeColor = Color.FromArgb(0, 0, 64);
             guna2Button1.Location = new Point(1013, 10);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Button1.Size = new Size(38, 42);
             guna2Button1.TabIndex = 18;
             guna2Button1.Text = "X";
