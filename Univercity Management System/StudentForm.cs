@@ -181,7 +181,7 @@ namespace Univercity_Management_System
                 // التحقق من LecturerID واستخراج الـ ID من النص
                 if (string.IsNullOrEmpty(cb_lecturer_id.Text))
                 {
-                    MessageBox.Show("Please select an Advisor.");
+                    MessageBox.Show("Please select an Lecturer.");
                     return;
                 }
 

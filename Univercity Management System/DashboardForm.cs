@@ -82,5 +82,12 @@ namespace Univercity_Management_System
             sc.ShowDialog();
             this.Hide();
         }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            FacultyForme facultyForme = new FacultyForme();
+            facultyForme.ShowDialog();
+            this.Hide();
+        }
     }
 }

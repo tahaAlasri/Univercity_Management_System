@@ -149,6 +149,7 @@
             Tex_Year_id.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             Tex_Year_id.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Tex_Year_id.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            Tex_Year_id.Enabled = false;
             Tex_Year_id.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Tex_Year_id.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Tex_Year_id.ForeColor = Color.FromArgb(0, 0, 64);

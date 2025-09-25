@@ -76,6 +76,7 @@
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             dgv_Semester_info = new DataGridView();
+            guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_Semester_info).BeginInit();
             SuspendLayout();
@@ -307,6 +308,7 @@
             // guna2GroupBox1
             // 
             guna2GroupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            guna2GroupBox1.Controls.Add(guna2HtmlLabel7);
             guna2GroupBox1.Controls.Add(guna2Button2);
             guna2GroupBox1.Controls.Add(chk_IsActive);
             guna2GroupBox1.Controls.Add(dtp_EndDate);
@@ -497,6 +499,16 @@
             dgv_Semester_info.DataError += dgv_Semester_info_DataError;
             dgv_Semester_info.RowHeaderMouseClick += dgv_Semester_info_RowHeaderMouseClick;
             // 
+            // guna2HtmlLabel7
+            // 
+            guna2HtmlLabel7.BackColor = Color.Transparent;
+            guna2HtmlLabel7.ForeColor = Color.Black;
+            guna2HtmlLabel7.Location = new Point(131, 459);
+            guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            guna2HtmlLabel7.Size = new Size(82, 47);
+            guna2HtmlLabel7.TabIndex = 12;
+            guna2HtmlLabel7.Text = "Active:";
+            // 
             // Semester
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -542,5 +554,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox cmb_Year;
         private Guna.UI2.WinForms.Guna2CheckBox chk_IsActive;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
     }
 }

@@ -381,7 +381,7 @@ namespace Univercity_Management_System
 
         private void but_back_Click(object sender, EventArgs e)
         {
-            DashboardForm frm = new DashboardForm();
+            FacultyForme frm = new FacultyForme();
             frm.Show();
             this.Hide();
         }

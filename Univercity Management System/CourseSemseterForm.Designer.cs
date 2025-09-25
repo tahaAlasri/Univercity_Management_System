@@ -35,6 +35,7 @@
         txtCourseId = new TextBox();
         lblCourseId = new Label();
         dgvCourses = new DataGridView();
+        button1 = new Button();
         pnlHeader.SuspendLayout();
         pnlInput.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)dgvCourses).BeginInit();
@@ -43,6 +44,7 @@
         // pnlHeader
         // 
         pnlHeader.BackColor = Color.FromArgb(0, 0, 64);
+        pnlHeader.Controls.Add(button1);
         pnlHeader.Controls.Add(lblTitleHeader);
         pnlHeader.Controls.Add(btnClose);
         pnlHeader.Dock = DockStyle.Top;
@@ -70,10 +72,10 @@
         // btnClose
         // 
         btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-        btnClose.BackColor = Color.Red;
+        btnClose.BackColor = Color.FromArgb(244, 67, 54);
         btnClose.FlatStyle = FlatStyle.Flat;
         btnClose.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-        btnClose.ForeColor = Color.White;
+        btnClose.ForeColor = Color.Black;
         btnClose.Location = new Point(1533, 8);
         btnClose.Margin = new Padding(4, 5, 4, 5);
         btnClose.Name = "btnClose";
@@ -201,9 +203,9 @@
         lblAdvisor.Location = new Point(27, 388);
         lblAdvisor.Margin = new Padding(4, 0, 4, 0);
         lblAdvisor.Name = "lblAdvisor";
-        lblAdvisor.Size = new Size(97, 39);
+        lblAdvisor.Size = new Size(96, 39);
         lblAdvisor.TabIndex = 11;
-        lblAdvisor.Text = "Advisor:";
+        lblAdvisor.Text = "Lecurer:";
         // 
         // cmbProgram
         // 
@@ -235,6 +237,7 @@
         txtTitle.Name = "txtTitle";
         txtTitle.Size = new Size(305, 34);
         txtTitle.TabIndex = 6;
+        txtTitle.TextAlign = HorizontalAlignment.Center;
         // 
         // lblTitle
         // 
@@ -255,6 +258,7 @@
         txtCourseCode.Name = "txtCourseCode";
         txtCourseCode.Size = new Size(305, 34);
         txtCourseCode.TabIndex = 4;
+        txtCourseCode.TextAlign = HorizontalAlignment.Center;
         // 
         // lblCourseCode
         // 
@@ -276,6 +280,7 @@
         txtCourseId.Name = "txtCourseId";
         txtCourseId.Size = new Size(305, 34);
         txtCourseId.TabIndex = 2;
+        txtCourseId.TextAlign = HorizontalAlignment.Center;
         // 
         // lblCourseId
         // 
@@ -305,6 +310,22 @@
         dgvCourses.Size = new Size(1067, 1000);
         dgvCourses.TabIndex = 2;
         dgvCourses.CellClick += dgvCourses_CellClick;
+        // 
+        // button1
+        // 
+        button1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+        button1.BackColor = SystemColors.Control;
+        button1.FlatStyle = FlatStyle.Flat;
+        button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+        button1.ForeColor = Color.Black;
+        button1.Location = new Point(1472, 8);
+        button1.Margin = new Padding(4, 5, 4, 5);
+        button1.Name = "button1";
+        button1.Size = new Size(53, 62);
+        button1.TabIndex = 2;
+        button1.Text = "-";
+        button1.UseVisualStyleBackColor = false;
+        button1.Click += button1_Click;
         // 
         // CourseSemesterForm
         // 
@@ -351,4 +372,5 @@
     private System.Windows.Forms.Button btnDelete;
     private System.Windows.Forms.Button btnClear;
     private System.Windows.Forms.Button btnBack;
+    private Button button1;
 }

@@ -96,7 +96,7 @@
             but_back.FillColor = Color.FromArgb(26, 125, 139);
             but_back.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_back.ForeColor = Color.White;
-            but_back.Location = new Point(836, 345);
+            but_back.Location = new Point(836, 306);
             but_back.Name = "but_back";
             but_back.ShadowDecoration.CustomizableEdges = customizableEdges2;
             but_back.Size = new Size(373, 56);
@@ -292,7 +292,7 @@
             But_clear.FillColor = Color.FromArgb(158, 158, 158);
             But_clear.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_clear.ForeColor = Color.White;
-            But_clear.Location = new Point(1069, 230);
+            But_clear.Location = new Point(1069, 206);
             But_clear.Name = "But_clear";
             But_clear.ShadowDecoration.CustomizableEdges = customizableEdges14;
             But_clear.Size = new Size(140, 56);
@@ -340,7 +340,7 @@
             But_delete.FillColor = Color.FromArgb(244, 67, 54);
             But_delete.Font = new Font("Dubai", 18F, FontStyle.Bold);
             But_delete.ForeColor = Color.White;
-            But_delete.Location = new Point(836, 230);
+            But_delete.Location = new Point(836, 206);
             But_delete.Name = "But_delete";
             But_delete.ShadowDecoration.CustomizableEdges = customizableEdges18;
             But_delete.Size = new Size(140, 56);
@@ -502,10 +502,10 @@
             but_programForm.FillColor = Color.FromArgb(0, 0, 64);
             but_programForm.Font = new Font("Dubai", 18F, FontStyle.Bold);
             but_programForm.ForeColor = Color.White;
-            but_programForm.Location = new Point(433, 527);
+            but_programForm.Location = new Point(846, 524);
             but_programForm.Name = "but_programForm";
             but_programForm.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            but_programForm.Size = new Size(314, 56);
+            but_programForm.Size = new Size(373, 56);
             but_programForm.TabIndex = 9;
             but_programForm.Text = "Program Form";
             but_programForm.UseWaitCursor = true;

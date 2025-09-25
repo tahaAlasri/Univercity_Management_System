@@ -12,7 +12,7 @@ namespace Univercity_Management_System
         public DateTime? DOB { get; set; }
         public string Email { get; set; }
         public int? ProgramID { get; set; }
-        public int? LecturerID { get; set; }
+        public int? LecturerID { get; set; }  
         public byte[] Image { get; set; }
 
         private string connectionString = Properties.Settings.Default.Univercity_CRUD;
@@ -34,7 +34,6 @@ namespace Univercity_Management_System
                         cmd.Parameters.Add("@Email", SqlDbType.NVarChar).Value = Email ?? (object)DBNull.Value;
                         cmd.Parameters.Add("@ProgramID", SqlDbType.Int).Value = ProgramID ?? (object)DBNull.Value;
                         cmd.Parameters.Add("@LecturerID", SqlDbType.Int).Value = LecturerID ?? (object)DBNull.Value;
-
                         cmd.Parameters.Add("@Image", SqlDbType.VarBinary).Value = Image ?? (object)DBNull.Value;
 
                         return cmd.ExecuteNonQuery() > 0;
@@ -55,9 +54,10 @@ namespace Univercity_Management_System
                 try
                 {
                     conn.Open();
-                    string query = @"UPDATE Student SET name=@Name, dob=@DOB, email=@Email, 
-                                    program_id=@ProgramID, lecturer_id=@LecturerID, image=@Image 
-                                    WHERE student_id=@StudentID";
+                    string query = @"UPDATE Student 
+                                     SET name=@Name, dob=@DOB, email=@Email, 
+                                         program_id=@ProgramID, lecturer_id=@LecturerID, image=@Image 
+                                     WHERE student_id=@StudentID";
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
@@ -80,7 +80,7 @@ namespace Univercity_Management_System
             }
         }
 
- public bool DeleteStudent()
+        public bool DeleteStudent()
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -119,45 +119,5 @@ namespace Univercity_Management_System
                 return dt;
             }
         }
-        // التحقق من وجود Lecturer
-        public bool LecturerExists(int lecturerId)
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                try
-                {
-                    conn.Open();
-                    string query = "SELECT COUNT(*) FROM Lecturer WHERE lecturer_id = @LecturerID";
-                    SqlCommand cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.Add("@LecturerID", SqlDbType.Int).Value = lecturerId;
-                    return (int)cmd.ExecuteScalar() > 0;
-                }
-                catch
-                {
-                    return false;
-                }
-            }
-        }
-
-        // التحقق من وجود Program
-        public bool ProgramExists(int programId)
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                try
-                {
-                    conn.Open();
-                    string query = "SELECT COUNT(*) FROM Program WHERE program_id = @ProgramID";
-                    SqlCommand cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.Add("@ProgramID", SqlDbType.Int).Value = programId;
-                    return (int)cmd.ExecuteScalar() > 0;
-                }
-                catch
-                {
-                    return false;
-                }
-            }
-        }
-
     }
 }

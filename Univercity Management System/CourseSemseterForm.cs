@@ -268,4 +268,9 @@ public partial class CourseSemesterForm : Form
         isDragging = false;
     }
 
+    private void button1_Click(object sender, EventArgs e)
+    {
+        this.WindowState = FormWindowState.Minimized;
+
+    }
 }

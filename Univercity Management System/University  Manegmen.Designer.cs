@@ -88,6 +88,7 @@
             // 
             // txtUniversityID
             // 
+            txtUniversityID.Enabled = false;
             txtUniversityID.Font = new Font("Dubai Medium", 13.7999992F, FontStyle.Bold);
             txtUniversityID.ForeColor = Color.Black;
             txtUniversityID.Location = new Point(243, 103);
