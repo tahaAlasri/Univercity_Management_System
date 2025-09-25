@@ -8,7 +8,8 @@ using static Guna.UI2.WinForms.Suite.Descriptions;
 
 public partial class CourseSemesterForm : Form
 {
-    private readonly string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename='C:\\Users\\lenovo\\Desktop\\Univercity_Management_System\\Univercity Management System\\Univercity_CRUD.mdf';Integrated Security=True";
+    static string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Admin\\source\\repos\\Univercity_Management_System\\Univercity Management System\\Univercity_CRUD.mdf\";Integrated Security=True";
+
     private bool isDragging = false;
     private Point dragCursorPoint;
     private Point dragFormPoint;
@@ -87,7 +88,7 @@ public partial class CourseSemesterForm : Form
         }
         catch (Exception ex)
         {
-            MessageBox.Show("Error loading advisors: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Error loading lecturer: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 
@@ -104,12 +105,12 @@ public partial class CourseSemesterForm : Form
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 con.Open();
-                string query = "INSERT INTO Course_Semester (Code, Title,  Program_id, Advisor_id) VALUES (@Code, @Title,@ProgramId, @AdvisorId)";
+                string query = "INSERT INTO Course_Semester (Code, Title,  Program_id, lecturer_id) VALUES (@Code, @Title,@ProgramId, @LecturerID)";
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@Code", txtCourseCode.Text);
                 cmd.Parameters.AddWithValue("@Title", txtTitle.Text);
                 cmd.Parameters.AddWithValue("@ProgramId", cmbProgram.SelectedValue);
-                cmd.Parameters.AddWithValue("@AdvisorId", cmbAdvisor.SelectedValue);
+                cmd.Parameters.AddWithValue("@LecturerID", cmbAdvisor.SelectedValue);
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Course added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -136,13 +137,13 @@ public partial class CourseSemesterForm : Form
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 con.Open();
-                string query = "UPDATE Course_Semester SET Code = @Code, Title = @Title,Program_id = @ProgramId, Advisor_id = @AdvisorId WHERE Course_id = @CourseId";
+                string query = "UPDATE Course_Semester SET Code = @Code, Title = @Title,Program_id = @ProgramId, lecturer_id = @LecturerID WHERE Course_id = @CourseId";
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@CourseId", int.Parse(txtCourseId.Text));
                 cmd.Parameters.AddWithValue("@Code", txtCourseCode.Text);
                 cmd.Parameters.AddWithValue("@Title", txtTitle.Text);
                 cmd.Parameters.AddWithValue("@ProgramId", cmbProgram.SelectedValue);
-                cmd.Parameters.AddWithValue("@AdvisorId", cmbAdvisor.SelectedValue);
+                cmd.Parameters.AddWithValue("@LecturerID", cmbAdvisor.SelectedValue);
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Course updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -210,7 +211,7 @@ public partial class CourseSemesterForm : Form
             txtTitle.Text = row.Cells["Title"].Value.ToString();
 
             object programValue = row.Cells["Program_id"].Value;
-            object advisorValue = row.Cells["Advisor_id"].Value;
+            object advisorValue = row.Cells["lecturer_id"].Value;
 
             if (programValue != DBNull.Value)
             {
@@ -267,13 +268,4 @@ public partial class CourseSemesterForm : Form
         isDragging = false;
     }
 
-    private void dgvCourses_CellContentClick(object sender, DataGridViewCellEventArgs e)
-    {
-
-    }
-
-    private void plInput_Paint(object sender, PaintEventArgs e)
-    {
-
-    }
 }

@@ -197,11 +197,11 @@
         // lblAdvisor
         // 
         lblAdvisor.AutoSize = true;
-        lblAdvisor.Font = new Font("Segoe UI", 12F);
+        lblAdvisor.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
         lblAdvisor.Location = new Point(27, 388);
         lblAdvisor.Margin = new Padding(4, 0, 4, 0);
         lblAdvisor.Name = "lblAdvisor";
-        lblAdvisor.Size = new Size(83, 28);
+        lblAdvisor.Size = new Size(97, 39);
         lblAdvisor.TabIndex = 11;
         lblAdvisor.Text = "Advisor:";
         // 
@@ -219,11 +219,11 @@
         // lblProgram
         // 
         lblProgram.AutoSize = true;
-        lblProgram.Font = new Font("Segoe UI", 12F);
+        lblProgram.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
         lblProgram.Location = new Point(27, 316);
         lblProgram.Margin = new Padding(4, 0, 4, 0);
         lblProgram.Name = "lblProgram";
-        lblProgram.Size = new Size(92, 28);
+        lblProgram.Size = new Size(106, 39);
         lblProgram.TabIndex = 9;
         lblProgram.Text = "Program:";
         // 
@@ -239,11 +239,11 @@
         // lblTitle
         // 
         lblTitle.AutoSize = true;
-        lblTitle.Font = new Font("Segoe UI", 12F);
+        lblTitle.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
         lblTitle.Location = new Point(27, 231);
         lblTitle.Margin = new Padding(4, 0, 4, 0);
         lblTitle.Name = "lblTitle";
-        lblTitle.Size = new Size(53, 28);
+        lblTitle.Size = new Size(67, 39);
         lblTitle.TabIndex = 5;
         lblTitle.Text = "Title:";
         // 
@@ -259,11 +259,11 @@
         // lblCourseCode
         // 
         lblCourseCode.AutoSize = true;
-        lblCourseCode.Font = new Font("Segoe UI", 12F);
+        lblCourseCode.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
         lblCourseCode.Location = new Point(27, 169);
         lblCourseCode.Margin = new Padding(4, 0, 4, 0);
         lblCourseCode.Name = "lblCourseCode";
-        lblCourseCode.Size = new Size(127, 28);
+        lblCourseCode.Size = new Size(142, 39);
         lblCourseCode.TabIndex = 3;
         lblCourseCode.Text = "Course Code:";
         // 
@@ -280,11 +280,11 @@
         // lblCourseId
         // 
         lblCourseId.AutoSize = true;
-        lblCourseId.Font = new Font("Segoe UI", 12F);
+        lblCourseId.Font = new Font("Dubai", 13.7999992F, FontStyle.Bold);
         lblCourseId.Location = new Point(27, 108);
         lblCourseId.Margin = new Padding(4, 0, 4, 0);
         lblCourseId.Name = "lblCourseId";
-        lblCourseId.Size = new Size(100, 28);
+        lblCourseId.Size = new Size(117, 39);
         lblCourseId.TabIndex = 1;
         lblCourseId.Text = "Course ID:";
         // 
@@ -305,7 +305,6 @@
         dgvCourses.Size = new Size(1067, 1000);
         dgvCourses.TabIndex = 2;
         dgvCourses.CellClick += dgvCourses_CellClick;
-        dgvCourses.CellContentClick += dgvCourses_CellContentClick;
         // 
         // CourseSemesterForm
         // 

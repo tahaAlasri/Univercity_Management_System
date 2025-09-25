@@ -71,7 +71,9 @@ namespace Univercity_Management_System
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-
+            CourseSemesterForm course = new CourseSemesterForm();
+            course.ShowDialog();
+            this.Hide();
         }
 
         private void guna2Button8_Click(object sender, EventArgs e)
