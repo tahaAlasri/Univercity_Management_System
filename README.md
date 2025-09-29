@@ -52,7 +52,7 @@ A comprehensive University Management System built with C# .NET, designed to str
 ### Installation Steps
 
 1. **Clone Repository**
-git clone https://github.com/senourian-developers/university-management.git
+git clone https://github.com/tahaAlasri/Univercity_Management_System.git
 cd university-management
 
 2. **Database Setup**
