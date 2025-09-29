@@ -1,4 +1,3 @@
-```markdown
 # 🎓 University Management System
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
@@ -44,7 +43,7 @@ A comprehensive University Management System built with C# .NET, designed to str
 
 ## 💻 Project Structure
 
-```
+
 UniversityManagementSystem/
 ├── 📁 src/
 │   ├── 📁 University.Core/          # Domain layer
@@ -84,7 +83,7 @@ UniversityManagementSystem/
     ├── Database/
     ├── API/
     └── Deployment/
-```
+
 
 ## 🚀 Quick Start
 
@@ -96,32 +95,29 @@ UniversityManagementSystem/
 ### Installation Steps
 
 1. **Clone Repository**
-```bash
 git clone https://github.com/senourian-developers/university-management.git
 cd university-management
-```
 
 2. **Database Setup**
-```sql
+
 -- Create database
 CREATE DATABASE UniversityManagementSystem;
 
 -- Or use EF Core migrations
 dotnet ef database update --project University.Infrastructure
-```
 
 3. **Configure Connection String**
-```json
+
 // appsettings.json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=.;Database=UniversityManagementSystem;Trusted_Connection=true;TrustServerCertificate=true;"
   }
 }
-```
+
 
 4. **Run Application**
-```bash
+
 # Restore packages
 dotnet restore
 
@@ -130,12 +126,12 @@ dotnet run --project University.API
 
 # Run Web Client
 dotnet run --project University.Web
-```
+
 
 ## 📚 Code Examples
 
 ### 🎓 Student Entity
-```csharp
+
 namespace University.Core.Entities;
 public class Student : BaseEntity
 {
@@ -165,10 +161,10 @@ public class Student : BaseEntity
         _enrollments.Add(enrollment);
     }
 }
-```
+
 
 ### 🏫 Course Service
-```csharp
+
 namespace University.Application.Services;
 public interface ICourseService
 {
@@ -198,10 +194,9 @@ public class CourseService : ICourseService
         return Result<CourseDto>.Success(_mapper.Map<CourseDto>(course));
     }
 }
-```
 
 ### 📊 Grade Controller
-```csharp
+
 namespace University.API.Controllers;
 [ApiController]
 [Route("api/[controller]")]
@@ -232,12 +227,12 @@ public class GradesController : ControllerBase
         return Ok(grades);
     }
 }
-```
+
 
 ## 🗄️ Database Models
 
 ### Entity Relationships
-```csharp
+
 // Core entity relationships
 public class Student : BaseEntity
 {
@@ -255,12 +250,12 @@ public class Course : BaseEntity
     public Instructor Instructor { get; set; }
     public ICollection<Enrollment> Enrollments { get; set; }
 }
-```
+
 
 ## 🔧 Configuration
 
 ### Dependency Injection Setup
-```csharp
+
 // Program.cs
 var builder = WebApplication.CreateBuilder(args);
 
@@ -279,12 +274,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-```
+
 
 ## 🧪 Testing
 
 ### Unit Tests Example
-```csharp
 namespace University.UnitTests.Services;
 public class StudentServiceTests
 {
