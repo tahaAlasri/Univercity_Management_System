@@ -41,49 +41,6 @@ A comprehensive University Management System built with C# .NET, designed to str
 - **Domain-Driven Design (DDD)** 🎯
 - **Unit of Work** ⚙️
 
-## 💻 Project Structure
-
-
-UniversityManagementSystem/
-├── 📁 src/
-│   ├── 📁 University.Core/          # Domain layer
-│   │   ├── Entities/
-│   │   ├── Enums/
-│   │   ├── Interfaces/
-│   │   └── Exceptions/
-│   │
-│   ├── 📁 University.Infrastructure/ # Data layer
-│   │   ├── Data/
-│   │   ├── Repositories/
-│   │   ├── Migrations/
-│   │   └── Configurations/
-│   │
-│   ├── 📁 University.Application/   # Business logic
-│   │   ├── Features/
-│   │   ├── DTOs/
-│   │   ├── Services/
-│   │   └── Validators/
-│   │
-│   ├── 📁 University.API/           # Web API
-│   │   ├── Controllers/
-│   │   ├── Middleware/
-│   │   └── Program.cs
-│   │
-│   └── 📁 University.Web/           # Blazor Frontend
-│       ├── Components/
-│       ├── Pages/
-│       └── Services/
-│
-├── 📁 tests/
-│   ├── University.UnitTests/
-│   ├── University.IntegrationTests/
-│   └── University.APITests/
-│
-└── 📁 docs/
-    ├── Database/
-    ├── API/
-    └── Deployment/
-
 
 ## 🚀 Quick Start
 
@@ -298,7 +255,8 @@ public class StudentServiceTests
         Assert.Equal("John", result.Value.FirstName);
     }
 }
-```
+
+
 
 ## 👨‍💻 Senourian Developers Team
 
@@ -309,7 +267,7 @@ public class StudentServiceTests
 - **Mohammed Senouari** - *Frontend & Blazor Expert*
 
 ### Technical Expertise
-```csharp
+
 public class SenourianTeamExpertise
 {
     public string[] BackendTechnologies = 
@@ -329,7 +287,7 @@ public class SenourianTeamExpertise
         "Blazor", "React", "Angular", "TypeScript", "MudBlazor"
     };
 }
-```
+
 
 ## 📊 Performance Features
 
@@ -342,7 +300,6 @@ public class SenourianTeamExpertise
 
 ## 🔒 Security Implementation
 
-```csharp
 // JWT Authentication
 services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -364,12 +321,13 @@ services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 [Authorize(Roles = "Administrator,Registrar")]
 [HttpPost("courses")]
 public async Task<IActionResult> CreateCourse([FromBody] CreateCourseCommand command)
-```
+
+
 
 ## 🚀 Deployment
 
 ### Docker Support
-```dockerfile
+
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 80
@@ -389,7 +347,7 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "University.API.dll"]
-```
+
 
 ## 🤝 Contributing
 
